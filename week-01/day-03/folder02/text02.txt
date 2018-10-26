@@ -1,0 +1,7 @@
+first-task/
+folder01/
+folder02/
+folder03/
+folder04/
+folder05/
+text.txt
