@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2064bf2-7886-4a0e-bb2a-cf4709b2ba3a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DrawTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-02/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-02/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-02/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-02/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-02/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-02/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-02/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-02/day-02.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-02/src/PreWork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DrawTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DrawTriangle.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,13 +45,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5172" />
+          <entry key="java" value="5193" />
           <entry key="txt" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5172" />
+          <entry key="JAVA" value="5193" />
           <entry key="PLAIN_TEXT" value="37" />
         </counts>
       </usages-collector>
@@ -53,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/src/AnimalsAndLegs.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="21" column="1" lean-forward="true" selection-end-line="21" selection-end-column="1" />
+              <caret line="21" column="1" selection-end-line="21" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -94,7 +104,7 @@
         <entry file="file://$PROJECT_DIR$/src/IWontCheatOnExams.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="1" lean-forward="true" selection-end-line="10" selection-end-column="1" />
+              <caret line="10" column="1" selection-end-line="10" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -103,7 +113,7 @@
         <entry file="file://$PROJECT_DIR$/src/PrintEven.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="1" lean-forward="true" selection-end-line="9" selection-end-column="1" />
+              <caret line="9" column="1" selection-end-line="9" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -112,7 +122,7 @@
         <entry file="file://$PROJECT_DIR$/src/MultiplicationTable.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="19" lean-forward="true" selection-end-line="31" selection-end-column="1" />
+              <caret line="19" selection-end-line="31" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -121,7 +131,7 @@
         <entry file="file://$PROJECT_DIR$/src/CountFromTo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="612">
-              <caret line="36" column="66" lean-forward="true" selection-end-line="40" selection-end-column="1" />
+              <caret line="36" column="66" selection-end-line="40" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -129,8 +139,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DrawTriangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+            <state relative-caret-position="355">
+              <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -186,10 +196,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="520" />
-    <option name="y" value="40" />
-    <option name="width" value="2800" />
-    <option name="height" value="1960" />
+    <option name="x" value="-10" />
+    <option name="width" value="1942" />
+    <option name="height" value="2112" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -222,7 +231,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540830798156" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540846984578" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
   </component>
   <component name="RunDashboard">
@@ -303,7 +312,7 @@
       <workItem from="1540809387291" duration="208000" />
       <workItem from="1540809626960" duration="108000" />
       <workItem from="1540809767645" duration="143000" />
-      <workItem from="1540809944027" duration="18413000" />
+      <workItem from="1540809944027" duration="20590000" />
     </task>
     <task id="LOCAL-00001" summary="Added Exercises 1-4 for the day">
       <created>1540814145697</created>
@@ -316,11 +325,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18872000" />
+    <option name="totallyTimeSpent" value="21049000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1933" height="1063" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.184" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -486,7 +494,7 @@
     <entry file="file://$PROJECT_DIR$/src/AnimalsAndLegs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="21" column="1" lean-forward="true" selection-end-line="21" selection-end-column="1" />
+          <caret line="21" column="1" selection-end-line="21" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -503,7 +511,7 @@
     <entry file="file://$PROJECT_DIR$/src/IWontCheatOnExams.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="1" lean-forward="true" selection-end-line="10" selection-end-column="1" />
+          <caret line="10" column="1" selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -517,7 +525,7 @@
     <entry file="file://$PROJECT_DIR$/src/PrintEven.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="1" lean-forward="true" selection-end-line="9" selection-end-column="1" />
+          <caret line="9" column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -531,21 +539,21 @@
     <entry file="file://$PROJECT_DIR$/src/MultiplicationTable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-end-line="31" selection-end-column="1" />
+          <caret line="19" selection-end-line="31" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CountFromTo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
-          <caret line="36" column="66" lean-forward="true" selection-end-line="40" selection-end-column="1" />
+          <caret line="36" column="66" selection-end-line="40" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DrawTriangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+        <state relative-caret-position="355">
+          <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
         </state>
       </provider>
     </entry>
