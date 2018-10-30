@@ -38,4 +38,5 @@ public class E21_Anagram {
         }
         return isAnagram;
     }
+    //  Alternative solution: slice up the strings into letters, which are actually stored as numbers, which can be sorted and the results compared
 }
