@@ -36,6 +36,20 @@ public class E28DrawTriangle {
         for (int i = 1; i < (yourNum + 1); i++) {
             System.out.print(star + "\n");
             star = star + "*";
-            }
+        }
+
+        // And yet another solution that first "collects" the stars to be printed out in the respective variable
+        // TO BE WORKED ON
+
+        System.out.println("Please enter another number:");
+
+        yourNum = scanner.nextInt();
+
+        String star = "*";
+
+        for (int i = 1; i < (yourNum + 1); i++) {
+            System.out.print(star + "\n");
+            star = star + "*";
+        }
     }
 }
