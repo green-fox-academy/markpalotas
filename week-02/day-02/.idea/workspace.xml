@@ -2,37 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72d8a5a0-fbf6-4b1b-94ab-2ed9ec25fd9a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../day-01/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/E08_CompareLength.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/E09_SumElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/E10_ChangeElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/E11_IncrementElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/E12_PrintAll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-03/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-03/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-03/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-03/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-03/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-03/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-03/day-03.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-03/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gitignore_test/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gitignore_test2/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gitignore_test2/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gitignore_test2/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gitignore_test2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gitignore_test2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gitignore_test2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gitignore_test2/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gitignore_test2/gitignore_test2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gitignore_test2/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gitignore_test3/gitignore_test3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gitignore_test3/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-03/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day-01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-01/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/E00_PreWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/E00_PreWork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/E13_DiagonalMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/E13_DiagonalMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gitignore_test/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gitignore_test/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gitignore_test/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gitignore_test/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gitignore_test/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gitignore_test/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gitignore_test/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gitignore_test/gitignore_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gitignore_test/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gitignore_test2/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gitignore_test2/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gitignore_test2/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gitignore_test2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gitignore_test2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gitignore_test2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gitignore_test2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gitignore_test2/gitignore_test2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gitignore_test2/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gitignore_test3/gitignore_test3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gitignore_test3/src/Main.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,12 +46,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="25" />
-          <entry key="java" value="2808" />
+          <entry key="java" value="3211" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2808" />
+          <entry key="JAVA" value="3211" />
           <entry key="PLAIN_TEXT" value="25" />
         </counts>
       </usages-collector>
@@ -67,13 +59,13 @@
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="13" />
+          <entry key="JAVA" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="13" />
+          <entry key="java" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -84,20 +76,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/E00_PreWork.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+            <state relative-caret-position="425">
+              <caret line="25" column="65" selection-start-line="25" selection-start-column="65" selection-end-line="25" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/E04_Sum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -165,11 +148,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/E12_PrintAll.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
               <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/E13_DiagonalMatrix.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -203,6 +195,8 @@
         <option value="$PROJECT_DIR$/src/E10_ChangeElement.java" />
         <option value="$PROJECT_DIR$/src/E11_IncrementElement.java" />
         <option value="$PROJECT_DIR$/src/E12_PrintAll.java" />
+        <option value="$PROJECT_DIR$/src/E00_PreWork.java" />
+        <option value="$PROJECT_DIR$/src/E13_DiagonalMatrix.java" />
       </list>
     </option>
   </component>
@@ -248,7 +242,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540906866838" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540908451661" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -262,16 +256,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.E12_PrintAll">
-    <configuration name="E08_CompareLength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="E08_CompareLength" />
-      <module name="day-02" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="E09_SumElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="E09_SumElements" />
+  <component name="RunManager" selected="Application.E13_DiagonalMatrix">
+    <configuration name="E00_PreWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E00_PreWork" />
       <module name="day-02" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -298,20 +285,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="E13_DiagonalMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E13_DiagonalMatrix" />
+      <module name="day-02" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.E08_CompareLength" />
-      <item itemvalue="Application.E09_SumElements" />
       <item itemvalue="Application.E10_ChangeElement" />
       <item itemvalue="Application.E11_IncrementElement" />
       <item itemvalue="Application.E12_PrintAll" />
+      <item itemvalue="Application.E13_DiagonalMatrix" />
+      <item itemvalue="Application.E00_PreWork" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.E13_DiagonalMatrix" />
+        <item itemvalue="Application.E00_PreWork" />
         <item itemvalue="Application.E12_PrintAll" />
         <item itemvalue="Application.E11_IncrementElement" />
         <item itemvalue="Application.E10_ChangeElement" />
-        <item itemvalue="Application.E09_SumElements" />
-        <item itemvalue="Application.E08_CompareLength" />
       </list>
     </recent_temporary>
   </component>
@@ -326,12 +320,12 @@
       <option name="presentableId" value="Default" />
       <updated>1540846158817</updated>
       <workItem from="1540846166636" duration="2360000" />
-      <workItem from="1540885099060" duration="12165000" />
+      <workItem from="1540885099060" duration="13816000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14525000" />
+    <option name="totallyTimeSpent" value="16176000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1933" height="1063" extended-state="6" />
@@ -438,16 +432,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/E00_PreWork.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/E09_SumElements.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -473,6 +457,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/E00_PreWork.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="65" selection-start-line="25" selection-start-column="65" selection-end-line="25" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/E13_DiagonalMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
         </state>
       </provider>
     </entry>

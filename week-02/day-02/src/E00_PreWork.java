@@ -21,5 +21,8 @@ public class E00_PreWork {
         Integer x = 5;
         System.out.println(x.toString());
         System.out.println(Integer.toString(12));
-    }
+
+        int matrix[][] = new int[4][5];
+        System.out.println(matrix.length + " " + matrix[0].length);
+        }
 }
