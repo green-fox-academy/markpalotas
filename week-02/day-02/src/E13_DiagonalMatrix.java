@@ -11,7 +11,7 @@ public class E13_DiagonalMatrix {
         //   0 0 0 1
         //
         // - Print this two dimensional array to the output
-        int matrix[][] = new int[4][4];
+        int[][] matrix = new int[4][4];
 
         for (int i = 0; i < matrix[0].length; i++) {
             matrix[i][i] = 1;

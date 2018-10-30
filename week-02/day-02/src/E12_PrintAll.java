@@ -5,7 +5,7 @@ public class E12_PrintAll {
         // - Create an array variable named `numbers`
         //   with the following content: `[4, 5, 6, 7]`
         // - Print all the elements of `numbers`
-        int numbers[] = {4, 5, 6, 7};
+        int[] numbers = {4, 5, 6, 7};
         System.out.println(Arrays.toString(numbers));
 
         System.out.println("Another solution is: ");
