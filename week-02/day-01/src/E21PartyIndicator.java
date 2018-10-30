@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class PartyIndicator {
+public class E21PartyIndicator {
     public static void main(String[] args) {
 
         // Write a program that asks for two numbers

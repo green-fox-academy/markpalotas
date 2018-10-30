@@ -1,4 +1,4 @@
-public class DefineBasicInfo {
+public class E10DefineBasicInfo {
     public static void main(String[] args) {
         // Define several things as a variable then print their values
         // Your name as a string

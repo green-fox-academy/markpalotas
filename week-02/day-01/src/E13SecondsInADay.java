@@ -1,4 +1,4 @@
-public class SecondsInADay {
+public class E13SecondsInADay {
     public static void main(String[] args) {
         int currentHours = 14;
         int currentMinutes = 34;

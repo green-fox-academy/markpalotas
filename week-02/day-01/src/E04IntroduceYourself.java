@@ -1,4 +1,4 @@
-public class IntroduceYourself {
+public class E04IntroduceYourself {
     public static void main(String[] args) {
         // Write a program that prints a few details to the terminal window about you
         // It should print each detail to a new line.

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MultiplicationTable {
+public class E25MultiplicationTable {
     public static void main(String[] args) {
         // Create a program that asks for a number and prints the multiplication table with that number
         //

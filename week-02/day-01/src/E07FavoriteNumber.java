@@ -1,4 +1,4 @@
-public class FavoriteNumber {
+public class E07FavoriteNumber {
     public static void main(String[] args) {
         int favoriteNumber = 8;
         // Store your favorite number in a variable (as a number)

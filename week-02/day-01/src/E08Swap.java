@@ -1,4 +1,4 @@
-public class Swap {
+public class E08Swap {
     public static void main(String[] args) {
         // Swap the values of the variables
         int a = 123;

@@ -2,18 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2064bf2-7886-4a0e-bb2a-cf4709b2ba3a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../day-02/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-02/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-02/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-02/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-02/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-02/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-02/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-02/day-02.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-02/src/PreWork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DrawTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DrawTriangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalsAndLegs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/E16AnimalsAndLegs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BMI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/E09BMI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodingHours.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/E06CodingHours.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DefineBasicInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/E10DefineBasicInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FavoriteNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/E07FavoriteNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HelloMe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/E01HelloMe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HelloOthers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/E03HelloOthers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HelloUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/E14HelloUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HumptyDumpty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/E02HumptyDumpty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IntroduceYourself.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/E04IntroduceYourself.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MileToKmConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/E15MileToKmConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SecondsInADay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/E13SecondsInADay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Swap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/E08Swap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/E05TwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VariableMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/E11VariableMutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,25 +31,27 @@
     <session id="946722782">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="26" />
+          <entry key="java" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="26" />
+          <entry key="JAVA" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="dummy" value="57" />
           <entry key="java" value="5193" />
           <entry key="txt" value="37" />
         </counts>
@@ -52,7 +59,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="5193" />
-          <entry key="PLAIN_TEXT" value="37" />
+          <entry key="PLAIN_TEXT" value="94" />
         </counts>
       </usages-collector>
     </session>
@@ -60,37 +67,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AnimalsAndLegs.java">
+        <entry file="file://$PROJECT_DIR$/src/E16AnimalsAndLegs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="1" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="187">
+              <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AverageOfInput.java">
+        <entry file="file://$PROJECT_DIR$/src/E03HelloOthers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" selection-end-line="23" />
+            <state relative-caret-position="204">
+              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/OneTwoALot.java">
+        <entry file="file://$PROJECT_DIR$/src/E09BMI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" selection-end-line="31" />
+            <state relative-caret-position="85">
+              <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PrintBigger.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/E08Swap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" selection-end-line="35" />
+            <state relative-caret-position="34">
+              <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -136,10 +143,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DrawTriangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
+            <state relative-caret-position="357">
               <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
             </state>
           </provider>
@@ -186,6 +193,8 @@
         <option value="$PROJECT_DIR$/src/MultiplicationTable.java" />
         <option value="$PROJECT_DIR$/src/CountFromTo.java" />
         <option value="$PROJECT_DIR$/src/DrawTriangle.java" />
+        <option value="$PROJECT_DIR$/src/E09BMI.java" />
+        <option value="$PROJECT_DIR$/src/E08Swap.java" />
       </list>
     </option>
   </component>
@@ -208,8 +217,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -226,13 +233,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540846984578" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540883230690" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -246,56 +255,56 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DrawTriangle">
-    <configuration name="CountFromTo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CountFromTo" />
+  <component name="RunManager" selected="Application.E03HelloOthers">
+    <configuration name="E03HelloOthers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E03HelloOthers" />
       <module name="day-01" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DrawTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DrawTriangle" />
+    <configuration name="E16AnimalsAndLegs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E16AnimalsAndLegs" />
       <module name="day-01" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IWontCheatOnExams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IWontCheatOnExams" />
+    <configuration name="E25MultiplicationTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E25MultiplicationTable" />
       <module name="day-01" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiplicationTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MultiplicationTable" />
+    <configuration name="E26CountFromTo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E26CountFromTo" />
       <module name="day-01" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrintEven" />
+    <configuration name="E28DrawTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E28DrawTriangle" />
       <module name="day-01" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.IWontCheatOnExams" />
-      <item itemvalue="Application.PrintEven" />
-      <item itemvalue="Application.MultiplicationTable" />
-      <item itemvalue="Application.CountFromTo" />
-      <item itemvalue="Application.DrawTriangle" />
+      <item itemvalue="Application.E25MultiplicationTable" />
+      <item itemvalue="Application.E26CountFromTo" />
+      <item itemvalue="Application.E28DrawTriangle" />
+      <item itemvalue="Application.E16AnimalsAndLegs" />
+      <item itemvalue="Application.E03HelloOthers" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DrawTriangle" />
-        <item itemvalue="Application.CountFromTo" />
-        <item itemvalue="Application.MultiplicationTable" />
-        <item itemvalue="Application.PrintEven" />
-        <item itemvalue="Application.IWontCheatOnExams" />
+        <item itemvalue="Application.E03HelloOthers" />
+        <item itemvalue="Application.E16AnimalsAndLegs" />
+        <item itemvalue="Application.E28DrawTriangle" />
+        <item itemvalue="Application.E26CountFromTo" />
+        <item itemvalue="Application.E25MultiplicationTable" />
       </list>
     </recent_temporary>
   </component>
@@ -312,7 +321,8 @@
       <workItem from="1540809387291" duration="208000" />
       <workItem from="1540809626960" duration="108000" />
       <workItem from="1540809767645" duration="143000" />
-      <workItem from="1540809944027" duration="20590000" />
+      <workItem from="1540809944027" duration="21191000" />
+      <workItem from="1540882141239" duration="947000" />
     </task>
     <task id="LOCAL-00001" summary="Added Exercises 1-4 for the day">
       <created>1540814145697</created>
@@ -325,12 +335,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21049000" />
+    <option name="totallyTimeSpent" value="22597000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1933" height="1063" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.184" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18613334" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -339,8 +349,8 @@
       <window_info id="Learn" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32967034" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32967034" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32967034" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -372,24 +382,17 @@
     <option name="LAST_COMMIT_MESSAGE" value="Added Exercises 1-4 for the day" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/HelloMe.java">
+    <entry file="file://$PROJECT_DIR$/src/E01HelloMe.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HumptyDumpty.java">
+    <entry file="file://$PROJECT_DIR$/src/E02HumptyDumpty.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HelloOthers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -404,73 +407,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/IntroduceYourself.java">
+    <entry file="file://$PROJECT_DIR$/src/E04IntroduceYourself.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TwoNumbers.java">
+    <entry file="file://$PROJECT_DIR$/src/E05TwoNumbers.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CodingHours.java">
+    <entry file="file://$PROJECT_DIR$/src/E06CodingHours.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FavoriteNumber.java">
+    <entry file="file://$PROJECT_DIR$/src/E07FavoriteNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Swap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BMI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DefineBasicInfo.java">
+    <entry file="file://$PROJECT_DIR$/src/E10DefineBasicInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/VariableMutation.java">
+    <entry file="file://$PROJECT_DIR$/src/E11VariableMutation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1156">
           <caret line="68" column="41" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SecondsInADay.java">
+    <entry file="file://$PROJECT_DIR$/src/E13SecondsInADay.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="122" selection-start-line="9" selection-start-column="122" selection-end-line="9" selection-end-column="122" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HelloUser.java">
+    <entry file="file://$PROJECT_DIR$/src/E14HelloUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MileToKmConverter.java">
+    <entry file="file://$PROJECT_DIR$/src/E15MileToKmConverter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
@@ -491,27 +480,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AnimalsAndLegs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ConditionalVariableMutation.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AverageOfInput.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IWontCheatOnExams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="1" selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -522,17 +494,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PrintEven.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/PrintBigger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ConditionalVariableMutation.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IWontCheatOnExams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PrintEven.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -552,8 +534,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DrawTriangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
+        <state relative-caret-position="357">
           <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/E16AnimalsAndLegs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/E03HelloOthers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/E09BMI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/E08Swap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
         </state>
       </provider>
     </entry>
