@@ -25,25 +25,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="5" />
+          <entry key="java" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="5" />
+          <entry key="JAVA" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1544" />
+          <entry key="java" value="1600" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.spring.boot.mvc.usages" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1544" />
+          <entry key="JAVA" value="1600" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -90,17 +90,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/W02D01E30_DrawDiamond.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="74">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/W02D01E31_DrawSquare.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="474">
+              <caret line="37" column="9" selection-start-line="17" selection-start-column="8" selection-end-line="37" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/W02D01E31_DrawSquare.java">
+        <entry file="file://$PROJECT_DIR$/src/W02D01E32_DrawDiagonal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+            <state relative-caret-position="457">
+              <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -125,6 +134,7 @@
         <option value="$PROJECT_DIR$/src/W02D01E29_DrawPyramid.java" />
         <option value="$PROJECT_DIR$/src/W02D01E30_DrawDiamond.java" />
         <option value="$PROJECT_DIR$/src/W02D01E31_DrawSquare.java" />
+        <option value="$PROJECT_DIR$/src/W02D01E32_DrawDiagonal.java" />
       </list>
     </option>
   </component>
@@ -155,7 +165,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540996886962" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540997559325" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -169,16 +179,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.W02D01E31_DrawSquare">
+  <component name="RunManager" selected="Application.W02D01E32_DrawDiagonal">
     <configuration name="DrawTriangle_RevisitedForDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DrawTriangle_RevisitedForDemo" />
-      <module name="day-03" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ForLoopExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ForLoopExample" />
       <module name="day-03" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -205,20 +208,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="W02D01E32_DrawDiagonal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="W02D01E32_DrawDiagonal" />
+      <module name="day-03" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.ForLoopExample" />
       <item itemvalue="Application.DrawTriangle_RevisitedForDemo" />
       <item itemvalue="Application.W02D01E29_DrawPyramid" />
       <item itemvalue="Application.W02D01E30_DrawDiamond" />
       <item itemvalue="Application.W02D01E31_DrawSquare" />
+      <item itemvalue="Application.W02D01E32_DrawDiagonal" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.W02D01E32_DrawDiagonal" />
         <item itemvalue="Application.W02D01E31_DrawSquare" />
         <item itemvalue="Application.W02D01E30_DrawDiamond" />
         <item itemvalue="Application.W02D01E29_DrawPyramid" />
         <item itemvalue="Application.DrawTriangle_RevisitedForDemo" />
-        <item itemvalue="Application.ForLoopExample" />
       </list>
     </recent_temporary>
   </component>
@@ -234,15 +244,16 @@
       <updated>1540904152287</updated>
       <workItem from="1540904156121" duration="256000" />
       <workItem from="1540965971873" duration="616000" />
-      <workItem from="1540977737784" duration="13128000" />
+      <workItem from="1540977737784" duration="13782000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14000000" />
+    <option name="totallyTimeSpent" value="14654000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1933" height="1063" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25493333" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -312,15 +323,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/W02D01E30_DrawDiamond.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="74">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/W02D01E31_DrawSquare.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        <state relative-caret-position="474">
+          <caret line="37" column="9" selection-start-line="17" selection-start-column="8" selection-end-line="37" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/W02D01E32_DrawDiagonal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
         </state>
       </provider>
     </entry>
