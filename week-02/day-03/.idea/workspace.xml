@@ -2,7 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="533290b5-6843-4104-a6e0-d09c0dd35206" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../day-01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-01/src/E01HelloMe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-01/src/E02HumptyDumpty.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-01/src/E03HelloOthers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-01/src/E04IntroduceYourself.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-01/src/E05TwoNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-01/src/E06CodingHours.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-01/src/E07FavoriteNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-01/src/E08Swap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-01/src/E09BMI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-01/src/E10DefineBasicInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-01/src/E11VariableMutation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-01/src/E13SecondsInADay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-01/src/E14HelloUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-01/src/E15MileToKmConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-01/src/E16AnimalsAndLegs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-01/src/E17AverageOfInput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-01/src/E18OddEven.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-01/src/E19OneTwoALot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-01/src/E20PrintBigger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-01/src/E21PartyIndicator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-01/src/E22ConditionalVariableMutation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-01/src/E23IWontCheatOnExams.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-01/src/E24PrintEven.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-01/src/E25MultiplicationTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-01/src/E26CountFromTo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-01/src/E28DrawTriangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-01/src/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../day-02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-02/src/E00_FurtherPrework.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/W02D02E00_FurtherPrework.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-02/src/E00_PreWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/W02D02E00_PreWork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-02/src/E01_Doubling.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/W02D02E01_Doubling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-02/src/E02_Greet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/W02D02E02_Greet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-02/src/E03_AppendAFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/W02D02E03_AppendAFunc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-02/src/E04_Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/W02D02E04_Sum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-02/src/E05_Factorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/W02D02E05_Factorio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-02/src/E06_PrintParams.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/W02D02E06_PrintParams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-02/src/E07_Third.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/W02D02E07_Third.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-02/src/E08_CompareLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/W02D02E08_CompareLength.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-02/src/E09_SumElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/W02D02E09_SumElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-02/src/E10_ChangeElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/W02D02E10_ChangeElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-02/src/E11_IncrementElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/W02D02E11_IncrementElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-02/src/E12_PrintAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/W02D02E12_PrintAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-02/src/E13_DiagonalMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/W02D02E13_DiagonalMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-02/src/E14_DoubleItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/W02D02E14_DoubleItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-02/src/E15_Colors.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/W02D02E15_Colors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-02/src/E16_AppendA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/W02D02E16_AppendA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-02/src/E17_SwapElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/W02D02E17_SwapElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-02/src/E18_SumAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/W02D02E18_SumAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-02/src/E19_Reverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/W02D02E19_Reverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-02/src/E20_Unique.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/W02D02E20_Unique.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-02/src/E21_Anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/W02D02E21_Anagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,11 +67,21 @@
     <session id="553695774">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.file.extensions.open" />
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.file.types.open" />
+      <usages-collector id="statistics.file.extensions.edit" />
+      <usages-collector id="statistics.spring.boot.run.usages" />
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
+      <usages-collector id="statistics.file.types.edit" />
+      <usages-collector id="statistics.js.language.service.starts" />
     </session>
   </component>
   <component name="FileEditorManager">
@@ -27,8 +89,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+            <state relative-caret-position="68">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -55,8 +117,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -99,27 +161,26 @@
       <option name="presentableId" value="Default" />
       <updated>1540904152287</updated>
       <workItem from="1540904156121" duration="256000" />
+      <workItem from="1540965971873" duration="616000" />
+      <workItem from="1540977737784" duration="41000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="256000" />
+    <option name="totallyTimeSpent" value="913000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1933" height="1063" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Learn" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25493333" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -127,15 +188,19 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,8 +212,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+        <state relative-caret-position="68">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
