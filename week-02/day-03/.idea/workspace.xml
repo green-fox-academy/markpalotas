@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="533290b5-6843-4104-a6e0-d09c0dd35206" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DrawTriangle_RevisitedForDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ForLoopForDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/W02D01E29_DrawPyramid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day-01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-01/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day-02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-02/src/W02D02E19_Reverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/W02D02E19_Reverse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -30,25 +26,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="3" />
+          <entry key="java" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="3" />
+          <entry key="JAVA" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="893" />
+          <entry key="java" value="1259" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.spring.boot.mvc.usages" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="893" />
+          <entry key="JAVA" value="1259" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -83,11 +79,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/W02D01E29_DrawPyramid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+            <state relative-caret-position="236">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/W02D01E30_DrawDiamond.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
             </state>
           </provider>
         </entry>
@@ -110,6 +115,7 @@
         <option value="$PROJECT_DIR$/src/ForLoopForDemo.java" />
         <option value="$PROJECT_DIR$/src/DrawTriangle_RevisitedForDemo.java" />
         <option value="$PROJECT_DIR$/src/W02D01E29_DrawPyramid.java" />
+        <option value="$PROJECT_DIR$/src/W02D01E30_DrawDiamond.java" />
       </list>
     </option>
   </component>
@@ -140,7 +146,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540992842453" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540996071863" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -154,7 +160,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.W02D01E29_DrawPyramid">
+  <component name="RunManager" selected="Application.W02D01E30_DrawDiamond">
     <configuration name="DrawTriangle_RevisitedForDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DrawTriangle_RevisitedForDemo" />
       <module name="day-03" />
@@ -186,14 +192,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="W02D01E30_DrawDiamond" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="W02D01E30_DrawDiamond" />
+      <module name="day-03" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.ForLoopExample" />
       <item itemvalue="Application.DrawTriangle_RevisitedForDemo" />
       <item itemvalue="Application.W02D01E29_DrawPyramid" />
+      <item itemvalue="Application.W02D01E30_DrawDiamond" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.W02D01E30_DrawDiamond" />
         <item itemvalue="Application.W02D01E29_DrawPyramid" />
         <item itemvalue="Application.DrawTriangle_RevisitedForDemo" />
         <item itemvalue="Application.ForLoopExample" />
@@ -212,16 +227,15 @@
       <updated>1540904152287</updated>
       <workItem from="1540904156121" duration="256000" />
       <workItem from="1540965971873" duration="616000" />
-      <workItem from="1540977737784" duration="8939000" />
+      <workItem from="1540977737784" duration="12314000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9811000" />
+    <option name="totallyTimeSpent" value="13186000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1933" height="1063" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25493333" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -284,8 +298,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/W02D01E29_DrawPyramid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+        <state relative-caret-position="236">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/W02D01E30_DrawDiamond.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>

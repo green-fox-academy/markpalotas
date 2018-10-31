@@ -237,7 +237,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540991736709" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540996071843" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
@@ -329,7 +329,7 @@
       <workItem from="1540900688470" duration="5291000" />
       <workItem from="1540965910376" duration="676000" />
       <workItem from="1540972591207" duration="153000" />
-      <workItem from="1540973292360" duration="6970000" />
+      <workItem from="1540973292360" duration="7548000" />
     </task>
     <task id="LOCAL-00001" summary="Added Exercises 1-4 for the day">
       <created>1540814145697</created>
@@ -342,7 +342,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38660000" />
+    <option name="totallyTimeSpent" value="39238000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1933" height="1063" extended-state="6" />
