@@ -2,58 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="533290b5-6843-4104-a6e0-d09c0dd35206" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/DrawTriangle_RevisitedForDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ForLoopForDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/W02D01E29_DrawPyramid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day-01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-01/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E01HelloMe.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E02HumptyDumpty.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E03HelloOthers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E04IntroduceYourself.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E05TwoNumbers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E06CodingHours.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E07FavoriteNumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E08Swap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E09BMI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E10DefineBasicInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E11VariableMutation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E13SecondsInADay.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E14HelloUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E15MileToKmConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E16AnimalsAndLegs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E17AverageOfInput.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E18OddEven.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E19OneTwoALot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E20PrintBigger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E21PartyIndicator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E22ConditionalVariableMutation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E23IWontCheatOnExams.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E24PrintEven.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E25MultiplicationTable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E26CountFromTo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E28DrawTriangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../day-02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-02/src/E00_FurtherPrework.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/W02D02E00_FurtherPrework.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-02/src/E00_PreWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/W02D02E00_PreWork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-02/src/E01_Doubling.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/W02D02E01_Doubling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-02/src/E02_Greet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/W02D02E02_Greet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-02/src/E03_AppendAFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/W02D02E03_AppendAFunc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-02/src/E04_Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/W02D02E04_Sum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-02/src/E05_Factorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/W02D02E05_Factorio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-02/src/E06_PrintParams.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/W02D02E06_PrintParams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-02/src/E07_Third.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/W02D02E07_Third.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-02/src/E08_CompareLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/W02D02E08_CompareLength.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-02/src/E09_SumElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/W02D02E09_SumElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-02/src/E10_ChangeElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/W02D02E10_ChangeElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-02/src/E11_IncrementElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/W02D02E11_IncrementElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-02/src/E12_PrintAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/W02D02E12_PrintAll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-02/src/E13_DiagonalMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/W02D02E13_DiagonalMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-02/src/E14_DoubleItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/W02D02E14_DoubleItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-02/src/E15_Colors.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/W02D02E15_Colors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-02/src/E16_AppendA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/W02D02E16_AppendA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-02/src/E17_SwapElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/W02D02E17_SwapElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-02/src/E18_SumAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/W02D02E18_SumAll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-02/src/E19_Reverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/W02D02E19_Reverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-02/src/E20_Unique.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/W02D02E20_Unique.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-02/src/E21_Anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/W02D02E21_Anagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-02/src/W02D02E19_Reverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/W02D02E19_Reverse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -74,31 +28,90 @@
           <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
-      <usages-collector id="statistics.file.extensions.open" />
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="3" />
+        </counts>
+      </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
-      <usages-collector id="statistics.file.types.open" />
-      <usages-collector id="statistics.file.extensions.edit" />
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="893" />
+        </counts>
+      </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.spring.boot.mvc.usages" />
-      <usages-collector id="statistics.file.types.edit" />
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="893" />
+        </counts>
+      </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DrawTriangle_RevisitedForDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ForLoopForDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/W02D01E29_DrawPyramid.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/ForLoopForDemo.java" />
+        <option value="$PROJECT_DIR$/src/DrawTriangle_RevisitedForDemo.java" />
+        <option value="$PROJECT_DIR$/src/W02D01E29_DrawPyramid.java" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -111,7 +124,9 @@
     <option name="width" value="1942" />
     <option name="height" value="2112" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -125,6 +140,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540992842453" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -138,7 +154,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.W02D01E29_DrawPyramid">
+    <configuration name="DrawTriangle_RevisitedForDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DrawTriangle_RevisitedForDemo" />
+      <module name="day-03" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ForLoopExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ForLoopExample" />
+      <module name="day-03" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="day-03" />
@@ -149,6 +179,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="W02D01E29_DrawPyramid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="W02D01E29_DrawPyramid" />
+      <module name="day-03" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.ForLoopExample" />
+      <item itemvalue="Application.DrawTriangle_RevisitedForDemo" />
+      <item itemvalue="Application.W02D01E29_DrawPyramid" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.W02D01E29_DrawPyramid" />
+        <item itemvalue="Application.DrawTriangle_RevisitedForDemo" />
+        <item itemvalue="Application.ForLoopExample" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -162,18 +212,18 @@
       <updated>1540904152287</updated>
       <workItem from="1540904156121" duration="256000" />
       <workItem from="1540965971873" duration="616000" />
-      <workItem from="1540977737784" duration="41000" />
+      <workItem from="1540977737784" duration="8939000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="913000" />
+    <option name="totallyTimeSpent" value="9811000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1933" height="1063" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25493333" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25493333" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -181,9 +231,10 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Learn" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32967034" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32967034" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -212,8 +263,29 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DrawTriangle_RevisitedForDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ForLoopForDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/W02D01E29_DrawPyramid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
         </state>
       </provider>
     </entry>

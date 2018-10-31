@@ -7,6 +7,7 @@ public class W02D02E19_Reverse {
         // - Reverse the order of the elements in `aj`
         // - Print the elements of the reversed `aj`
         int[] aj = {3, 4, 5, 6, 7};
+        System.out.println(Arrays.toString(aj));
         int[] rev = new int[5];
         for (int i = 0, j = 4; i < aj.length && j > -1; i++, j--) {
             rev[j] = aj[i];

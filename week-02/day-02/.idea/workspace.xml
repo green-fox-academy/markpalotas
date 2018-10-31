@@ -2,58 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72d8a5a0-fbf6-4b1b-94ab-2ed9ec25fd9a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../day-03/src/DrawTriangle_RevisitedForDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-03/src/ForLoopForDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-03/src/W02D01E29_DrawPyramid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day-01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-01/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E01HelloMe.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E02HumptyDumpty.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E03HelloOthers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E04IntroduceYourself.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E05TwoNumbers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E06CodingHours.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E07FavoriteNumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E08Swap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E09BMI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E10DefineBasicInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E11VariableMutation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E13SecondsInADay.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E14HelloUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E15MileToKmConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E16AnimalsAndLegs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E17AverageOfInput.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E18OddEven.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E19OneTwoALot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E20PrintBigger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E21PartyIndicator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E22ConditionalVariableMutation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E23IWontCheatOnExams.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E24PrintEven.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E25MultiplicationTable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E26CountFromTo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/E28DrawTriangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/E00_FurtherPrework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/W02D02E00_FurtherPrework.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/E00_PreWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/W02D02E00_PreWork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/E01_Doubling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/W02D02E01_Doubling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/E02_Greet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/W02D02E02_Greet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/E03_AppendAFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/W02D02E03_AppendAFunc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/E04_Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/W02D02E04_Sum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/E05_Factorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/W02D02E05_Factorio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/E06_PrintParams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/W02D02E06_PrintParams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/E07_Third.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/W02D02E07_Third.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/E08_CompareLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/W02D02E08_CompareLength.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/E09_SumElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/W02D02E09_SumElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/E10_ChangeElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/W02D02E10_ChangeElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/E11_IncrementElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/W02D02E11_IncrementElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/E12_PrintAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/W02D02E12_PrintAll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/E13_DiagonalMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/W02D02E13_DiagonalMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/E14_DoubleItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/W02D02E14_DoubleItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/E15_Colors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/W02D02E15_Colors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/E16_AppendA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/W02D02E16_AppendA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/E17_SwapElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/W02D02E17_SwapElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/E18_SumAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/W02D02E18_SumAll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/E19_Reverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/W02D02E19_Reverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/E20_Unique.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/W02D02E20_Unique.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/E21_Anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/W02D02E21_Anagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/W02D02E19_Reverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/W02D02E19_Reverse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day-03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-03/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -80,12 +34,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="31" />
-          <entry key="java" value="5776" />
+          <entry key="java" value="5779" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5776" />
+          <entry key="JAVA" value="5779" />
           <entry key="PLAIN_TEXT" value="31" />
         </counts>
       </usages-collector>
@@ -93,13 +47,13 @@
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="26" />
+          <entry key="JAVA" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="26" />
+          <entry key="java" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -107,36 +61,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/W02D02E00_PreWork.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="25" column="65" selection-start-line="25" selection-start-column="65" selection-end-line="25" selection-end-column="65" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/W02D02E01_Doubling.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/W02D02E02_Greet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/W02D02E04_Sum.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -183,6 +107,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/W02D02E10_ChangeElement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/W02D02E20_Unique.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
@@ -192,10 +125,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/W02D02E19_Reverse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/W02D02E21_Anagram.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="13" selection-start-column="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/W02D02E17_SwapElements.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -240,6 +191,7 @@
         <option value="$PROJECT_DIR$/src/E20_Unique.java" />
         <option value="$PROJECT_DIR$/src/E21_Anagram.java" />
         <option value="$PROJECT_DIR$/src/W02D02E21_Anagram.java" />
+        <option value="$PROJECT_DIR$/src/W02D02E19_Reverse.java" />
       </list>
     </option>
   </component>
@@ -285,7 +237,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540972576959" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540991736680" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -299,7 +251,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.W02D02E21_Anagram">
+  <component name="RunManager" selected="Application.W02D02E19_Reverse">
     <configuration name="W02D02E16_AppendA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="W02D02E16_AppendA" />
       <module name="day-02" />
@@ -344,8 +296,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.W02D02E21_Anagram" />
         <item itemvalue="Application.W02D02E19_Reverse" />
+        <item itemvalue="Application.W02D02E21_Anagram" />
         <item itemvalue="Application.W02D02E18_SumAll" />
         <item itemvalue="Application.W02D02E17_SwapElements" />
         <item itemvalue="Application.W02D02E16_AppendA" />
@@ -368,18 +320,17 @@
       <workItem from="1540965950818" duration="606000" />
       <workItem from="1540970766171" duration="518000" />
       <workItem from="1540971337861" duration="437000" />
-      <workItem from="1540973261140" duration="623000" />
+      <workItem from="1540973261140" duration="5004000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28052000" />
+    <option name="totallyTimeSpent" value="32433000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1933" height="1063" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.168" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.168" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -389,7 +340,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32857144" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32857144" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32857144" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -490,31 +441,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/W02D02E10_ChangeElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/W02D02E18_SumAll.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/W02D02E19_Reverse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="75" selection-start-line="15" selection-start-column="75" selection-end-line="15" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/W02D02E17_SwapElements.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -591,10 +521,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/W02D02E21_Anagram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/W02D02E13_DiagonalMatrix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/W02D02E10_ChangeElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/W02D02E17_SwapElements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -605,10 +556,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/W02D02E21_Anagram.java">
+    <entry file="file://$PROJECT_DIR$/src/W02D02E19_Reverse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
