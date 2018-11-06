@@ -1,7 +1,7 @@
 import java.lang.reflect.Array;
 import java.util.*;
 
-public class W03D02E08_CandyShop {
+public class W03D02E09_CandyShop {
     public static void main(String... args){
         ArrayList<Object> arrayList = new ArrayList<Object>();
         arrayList.add("Cupcake");
