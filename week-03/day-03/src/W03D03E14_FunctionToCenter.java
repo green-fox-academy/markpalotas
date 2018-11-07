@@ -34,10 +34,23 @@ public class W03D03E14_FunctionToCenter {
                 firstLine(graphics, (i-80) * 20, 800);
             } else firstLine(graphics, 0, (i - 120) * 20);
         }
+        graphics.clearRect(0, 0, WIDTH, HEIGHT);
+
+        for (int i = 0; i < WIDTH / 20; i++) {
+            secondLine(graphics, 20*i, 0);
+        }
+        for (int i = 0; i < WIDTH / 20; i++) {
+            secondLine(graphics, 800, 20 * i);
+        }
     }
 
     public static void firstLine(Graphics g, int x, int y) {
         g.drawLine(x, y, WIDTH / 2, HEIGHT / 2);
+    }
+
+    //    ALTERNATIVE solution using a function that draws a line between two points on the perimeter of the canvas that passes through the middle
+    public static void secondLine(Graphics g, int x, int y) {
+        g.drawLine(x, y, WIDTH - x, HEIGHT-y);
     }
 
     // Don't touch the code below
