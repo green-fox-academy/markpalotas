@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class W02D01E20PrintBigger {
+public clasW02D01E20PrintBigger {
     public static void main(String[] args) {
         // Write a program that asks for two numbers and prints the bigger one
 
