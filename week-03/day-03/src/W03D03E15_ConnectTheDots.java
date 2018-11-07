@@ -21,17 +21,23 @@ public class W03D03E15_ConnectTheDots {
 
         int[] foxArray = {50, 100, 70, 70, 80, 90, 90, 90, 100, 70, 120, 100, 85, 130, 50, 100};
         for (int i = 0; i < foxArray.length - 1; i++) {
-            int zoomfactor = 2;
+            int zoomfactor = 5;
             if (i % 2 == 0) {
                 foxArray[i] = foxArray[0] + zoomfactor * (foxArray[i] - foxArray[0]);
             } else foxArray[i] = foxArray[1] + zoomfactor * (foxArray[i] - foxArray[1]);
         }
 //        the following lines (moving the whole drawing) does not yet work, conflicts probably with the IF part of the connector function
-        for (int i = 0; i < foxArray.length - 1; i++) {
-            int movefactor = 0;
+        for (int i = 0; i < foxArray.length; i++) {
+            int movefactor = 100;
             foxArray[i] = foxArray[i] + movefactor;
         }
         connector(graphics, foxArray);
+
+        graphics.clearRect(0, 0, WIDTH, HEIGHT);
+
+        int[][] multiArray = {{10, 10}, {290, 10}, {290, 290}, {10, 290}, {10, 10}};
+        int[][] multiArray2 = {{50, 100}, {70, 70}, {80, 90}, {90, 90}, {100, 70}, {120, 100}, {85, 130}, {50, 100}};
+        multiConnector(graphics, multiArray2);
 
 //        int[] foxArray2 = {100, 150, 120, 120, 130, 140, 140, 140, 150, 120, 170, 150, 135, 185, 100, 150};
 //        connector(graphics, foxArray2);
@@ -45,6 +51,13 @@ public class W03D03E15_ConnectTheDots {
         }
         if (inpArray[0] != inpArray[inpArray.length - 2] | inpArray[1] != inpArray[inpArray.length - 1]) {
             g.drawLine(inpArray[inpArray.length - 2], inpArray[inpArray.length - 1], inpArray[0], inpArray[1]);
+        }
+    }
+
+    public static void multiConnector(Graphics g, int[][] inpArray) {
+        g.setColor(Color.GREEN);
+        for (int i = 0; i < inpArray.length - 1; i++) {
+            g.drawLine(inpArray[i][0], inpArray[i][1], inpArray[i + 1][0], inpArray[i + 1][1]);
         }
     }
 
