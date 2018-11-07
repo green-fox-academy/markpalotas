@@ -24,6 +24,16 @@ public class W03D03E14_FunctionToCenter {
             firstLine(graphics, i * 20, 800);
         }
         graphics.clearRect(0, 0, WIDTH, HEIGHT);
+
+        for (int i = 0; i < 4 * (WIDTH / 20)+1; i++) {
+            if (i <= WIDTH / 20) {
+                firstLine(graphics, i * 20, 0);
+            } else if (i <= 2 * (WIDTH / 20)) {
+                firstLine(graphics, 800, (i-40) * 20);
+            } else if (i <= 3 * (WIDTH / 20)) {
+                firstLine(graphics, (i-80) * 20, 800);
+            } else firstLine(graphics, 0, (i - 120) * 20);
+        }
     }
 
     public static void firstLine(Graphics g, int x, int y) {
