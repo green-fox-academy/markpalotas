@@ -4,30 +4,26 @@ import java.awt.*;
 
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
-public class W03D03E01_LineInTheMiddle {
-    public static void mainDraw(Graphics graphics){
-        // draw a red horizontal line to the canvas' middle.
-        // draw a green vertical line to the canvas' middle.
-
-        graphics.setColor(Color.RED);
-        graphics.drawLine(WIDTH, HEIGHT / 2, 0, HEIGHT / 2);
-
-        graphics.setColor(Color.GREEN);
-        graphics.drawLine(WIDTH / 2, HEIGHT, WIDTH / 2, 0);
-
-        graphics.setColor(new Color(50,75,200,20));
-        graphics.fillRect(10, 10, 50, 50);
-
+public class W03D03E02_ColoredBox {
+    public static void mainDraw(Graphics graphics) {
+        // Draw a box that has different colored lines on each edge.
+        int startX = 100;
+        int startY = 100;
+        int rectWidth = 200;
+        int rectHeight = 313;
         graphics.setColor(Color.BLACK);
-        graphics.fillRect(20, 20, 50, 50);
-
-        graphics.clearRect(30, 30, 10, 10);
-
+        graphics.drawLine(startX, startY, startX + rectWidth, startY);
+        graphics.setColor(Color.RED);
+        graphics.drawLine(startX + rectWidth, startY, startX + rectWidth, startY + rectHeight);
+        graphics.setColor(Color.GREEN);
+        graphics.drawLine(startX + rectWidth, startY + rectHeight, startX, startY + rectHeight);
+        graphics.setColor(Color.PINK);
+        graphics.drawLine(startX, startY + rectHeight, startX, startY);
     }
 
     // Don't touch the code below
-    static int WIDTH = 1200;
-    static int HEIGHT = 1200;
+    static int WIDTH = 800;
+    static int HEIGHT = 800;
 
     public static void main(String[] args) {
         JFrame jFrame = new JFrame("Drawing");
