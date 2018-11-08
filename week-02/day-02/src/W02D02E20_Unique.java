@@ -9,10 +9,11 @@ public class W02D02E20_Unique {
         //        System.out.println(unique(new int[] {1, 11, 34, 11, 52, 61, 1, 34}));
         //  should print: `[1, 11, 34, 52, 61]`
         int[] mylist = {1,1,1,0,0,0,2,5,0,1,11,23,36,45,36,2,3};
-        mylist = sortIntArray(mylist);
-        System.out.println(Arrays.toString(mylist));
-        mylist = unique(mylist);
-        System.out.println(Arrays.toString(mylist));
+//        mylist = sortIntArray(mylist);
+//        System.out.println(Arrays.toString(mylist));
+//        mylist = unique(mylist);
+//        System.out.println(Arrays.toString(mylist));
+        System.out.println(Arrays.toString(unique(sortIntArray(mylist))));
     }
 
     public static int[] unique(int[] inputList) {
