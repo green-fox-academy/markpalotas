@@ -26,7 +26,7 @@ public class W02D02E22_Palindrome {
         for (int i = inpArray.length-1; i >-1; i--) {
             palindrome = palindrome + inpArray[i];
         }
-
+        palindrome = inpStr + palindrome;
         return palindrome;
     }
 }
