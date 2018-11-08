@@ -1,6 +1,8 @@
 import java.util.Scanner;
 
-public class W02D02E023_PalindromeSearcher {
+//Previous solution did not output a list, but a string, correcting this now
+
+public class W02D02E023_PalindromeSearcher_v2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter a string of characters and I'll see if there are any palindrome sections in it:");
