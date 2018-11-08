@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72d8a5a0-fbf6-4b1b-94ab-2ed9ec25fd9a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/W02D02E20_Unique.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/W02D02E20_Unique.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day-03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-03/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,12 +30,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="31" />
-          <entry key="java" value="7381" />
+          <entry key="java" value="7791" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7381" />
+          <entry key="JAVA" value="7791" />
           <entry key="PLAIN_TEXT" value="31" />
         </counts>
       </usages-collector>
@@ -42,13 +43,13 @@
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="48" />
+          <entry key="JAVA" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="48" />
+          <entry key="java" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -56,15 +57,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/W02D02E09_SumElements.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/W02D02E10_ChangeElement.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -113,8 +105,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/W02D02E21_Anagram_v2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="34" column="47" lean-forward="true" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
+            <state relative-caret-position="322">
+              <caret line="42" column="32" lean-forward="true" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,11 +114,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/W02D02_SortArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="6" column="60" lean-forward="true" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
+            <state>
+              <caret lean-forward="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/W02D02E20_Unique.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -192,6 +193,7 @@
         <option value="$PROJECT_DIR$/src/W02D02E21_Anagram.java" />
         <option value="$PROJECT_DIR$/src/W02D02_SortArray.java" />
         <option value="$PROJECT_DIR$/src/W02D02E21_Anagram_v2.java" />
+        <option value="$PROJECT_DIR$/src/W02D02E20_Unique.java" />
       </list>
     </option>
   </component>
@@ -237,7 +239,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541680059615" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541681340795" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -260,16 +262,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.W02D02E21_Anagram_v2">
-    <configuration name="W02D02E18_SumAll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="W02D02E18_SumAll" />
+  <component name="RunManager" selected="Application.W02D02E20_Unique">
+    <configuration name="W02D02E19_Reverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="W02D02E19_Reverse" />
       <module name="day-02" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="W02D02E19_Reverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="W02D02E19_Reverse" />
+    <configuration name="W02D02E20_Unique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="W02D02E20_Unique" />
       <module name="day-02" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -297,19 +299,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.W02D02E18_SumAll" />
       <item itemvalue="Application.W02D02E19_Reverse" />
       <item itemvalue="Application.W02D02E21_Anagram" />
       <item itemvalue="Application.W02D02E21_Anagram_v2" />
       <item itemvalue="Application.W02D02_SortArray" />
+      <item itemvalue="Application.W02D02E20_Unique" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.W02D02E20_Unique" />
         <item itemvalue="Application.W02D02E21_Anagram_v2" />
         <item itemvalue="Application.W02D02_SortArray" />
         <item itemvalue="Application.W02D02E21_Anagram" />
         <item itemvalue="Application.W02D02E19_Reverse" />
-        <item itemvalue="Application.W02D02E18_SumAll" />
       </list>
     </recent_temporary>
   </component>
@@ -333,12 +335,12 @@
       <workItem from="1541424847737" duration="720000" />
       <workItem from="1541508907988" duration="4061000" />
       <workItem from="1541665912058" duration="26000" />
-      <workItem from="1541669071313" duration="6790000" />
+      <workItem from="1541669071313" duration="7996000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44032000" />
+    <option name="totallyTimeSpent" value="45238000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1933" height="1063" extended-state="6" />
@@ -472,13 +474,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/W02D02E20_Unique.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/W02D02E01_Doubling.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -577,20 +572,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/W02D02_SortArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/W02D02E21_Anagram_v2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="34" column="47" lean-forward="true" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
+        <state relative-caret-position="322">
+          <caret line="42" column="32" lean-forward="true" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/W02D02_SortArray.java">
+    <entry file="file://$PROJECT_DIR$/src/W02D02E20_Unique.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="60" lean-forward="true" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
+        <state relative-caret-position="170">
+          <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
         </state>
       </provider>
     </entry>
