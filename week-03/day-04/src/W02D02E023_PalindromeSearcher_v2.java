@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 //Previous solution did not output a list, but a string, correcting this now
@@ -11,13 +13,13 @@ public class W02D02E023_PalindromeSearcher_v2 {
         System.out.println(searchPalindrome(input));
     }
 
-    public static String searchPalindrome(String inpStr) {
-        String palindromes = "";
+    public static List<String> searchPalindrome(String inpStr) {
+        List<String> palindromes = new ArrayList<>();
         for (int i = 3; i <= inpStr.length(); i++) {
             for (int j = 0; j < inpStr.length() - i + 1; j++) {
                 String subStr = inpStr.substring(j, j + i);
                 if (subStr.equals(checkPalindrome(subStr))) {
-                    palindromes = palindromes + " " + subStr;
+                    palindromes.add(subStr);
                 }
             }
         }
