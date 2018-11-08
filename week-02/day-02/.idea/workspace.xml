@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72d8a5a0-fbf6-4b1b-94ab-2ed9ec25fd9a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../week-03/day-04/src/W02D02E023_PalindromeSearcher_v2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-03/day-04/src/W02D02E023_PalindromeSearcher_v2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-03/day-04/src/W02D02E24_Bubble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-03/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-03/day-04/src/W02D02E023_PalindromeSearcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-03/day-04/src/W02D02E23_PalindromeSearcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-03/day-04/src/W02D02E023_PalindromeSearcher_v2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-03/day-04/src/W02D02E23_PalindromeSearcher_v2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -105,7 +109,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/W02D02_SortArray.java">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -119,7 +123,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/JustTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -236,7 +240,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541689217008" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541691151536" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -333,12 +337,12 @@
       <workItem from="1541508907988" duration="4061000" />
       <workItem from="1541665912058" duration="26000" />
       <workItem from="1541669071313" duration="10355000" />
-      <workItem from="1541685489408" duration="2198000" />
+      <workItem from="1541685489408" duration="3211000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49795000" />
+    <option name="totallyTimeSpent" value="50808000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1933" height="1063" extended-state="6" />
@@ -563,9 +567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/W02D02_SortArray.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/W02D02E03_AppendAFunc.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -593,6 +594,9 @@
           <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/W02D02_SortArray.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
