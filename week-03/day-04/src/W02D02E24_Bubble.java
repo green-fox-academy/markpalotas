@@ -14,18 +14,39 @@ public class W02D02E24_Bubble {
 
         int[] myArray = {34, 12, 24, 9, 5, 0, 0, 34, 49, 62, 9};
         System.out.println(Arrays.toString(bubble(myArray)));
+        System.out.println(Arrays.toString(advancedBubble(myArray, true)));
     }
 
     public static int[] bubble(int[] toBeSorted) {
-        for (int i = 0; i < toBeSorted.length - 1; i++) {
-            for (int j = 0; j < toBeSorted.length - 1; j++) {
-                if (toBeSorted[j] > toBeSorted[j + 1]) {
-                    int tmp = toBeSorted[j + 1];
-                    toBeSorted[j + 1] = toBeSorted[j];
-                    toBeSorted[j] = tmp;
+        int[] sorted = new int[toBeSorted.length];
+        for (int i = 0; i < toBeSorted.length; i++) {
+            sorted[i] = toBeSorted[i];
+        }
+        for (int i = 0; i < sorted.length - 1; i++) {
+            for (int j = 0; j < sorted.length - 1; j++) {
+                if (sorted[j] > sorted[j + 1]) {
+                    int tmp = sorted[j + 1];
+                    sorted[j + 1] = sorted[j];
+                    sorted[j] = tmp;
                 }
             }
         }
-        return toBeSorted;
+        return sorted;
+    }
+
+    public static int[] advancedBubble(int[] toBeSorted, Boolean descend) {
+        int[] presorted = new int[toBeSorted.length];
+        int[] sorted = new int[toBeSorted.length];
+        for (int i = 0; i < toBeSorted.length; i++) {
+            presorted[i] = bubble(toBeSorted)[i];
+        }
+        if (descend == true) {
+            for (int i = 0; i < toBeSorted.length; i++) {
+                sorted[i] = presorted[toBeSorted.length - 1 - i];
+            }
+        } else {
+            sorted = presorted;
+        }
+        return sorted;
     }
 }
