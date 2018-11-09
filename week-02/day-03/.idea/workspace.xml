@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="533290b5-6843-4104-a6e0-d09c0dd35206" name="Default Changelist" comment="" />
+    <list default="true" id="533290b5-6843-4104-a6e0-d09c0dd35206" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../day-02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-03/day-05/src/W03D05_LinePlay.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-03/day-05/src/W03D05_LinePlay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-03/day-05/src/W03D05_LinePlay_Multiple.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-03/day-05/src/W03D05_LinePlay_Multiple.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +121,7 @@
         <entry file="file://$PROJECT_DIR$/src/W02D01E33_GuessTheNumber.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="82" lean-forward="true" selection-start-line="5" selection-start-column="82" selection-end-line="5" selection-end-column="82" />
+              <caret line="5" column="82" selection-start-line="5" selection-start-column="82" selection-end-line="5" selection-end-column="82" />
             </state>
           </provider>
         </entry>
@@ -378,7 +382,7 @@
     <entry file="file://$PROJECT_DIR$/src/W02D01E33_GuessTheNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="82" lean-forward="true" selection-start-line="5" selection-start-column="82" selection-end-line="5" selection-end-column="82" />
+          <caret line="5" column="82" selection-start-line="5" selection-start-column="82" selection-end-line="5" selection-end-column="82" />
         </state>
       </provider>
     </entry>

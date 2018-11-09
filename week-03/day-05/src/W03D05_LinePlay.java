@@ -25,8 +25,8 @@ public class W03D05_LinePlay {
     }
 
     // Don't touch the code below
-    static int WIDTH = 800;
-    static int HEIGHT = 800;
+    static int WIDTH = 600;
+    static int HEIGHT = 600;
 
     public static void main(String[] args) {
         JFrame jFrame = new JFrame("Drawing");
