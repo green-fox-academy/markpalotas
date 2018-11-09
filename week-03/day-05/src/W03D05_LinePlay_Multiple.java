@@ -4,13 +4,16 @@ import java.util.Scanner;
 
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
-public class W03D05_LinePlay_parametric {
+public class W03D05_LinePlay_Multiple {
     public static final Color PURPLE = new Color(102, 0, 153);
     public static void mainDraw(Graphics graphics) {
         int freq = 15;
         int originX = 0;
         int originY = HEIGHT;
-        int size = WIDTH;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("How many pairs of LinePlay would you like to see?");
+        int howmany = scanner.nextInt();
+        int size = WIDTH/((int) (Math.sqrt(howmany)));
         drawLinePlay(graphics, originX, originY, size, freq);
         drawLinePlayMirror(graphics, originX, originY, size, freq);
     }
