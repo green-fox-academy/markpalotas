@@ -7,16 +7,11 @@ public class W03D05_LinePlay_parametric {
     public static final Color PURPLE = new Color(102, 0, 153);
     public static void mainDraw(Graphics graphics) {
         int freq = 15;
-        graphics.setColor(PURPLE);
-        for (int i = 0; i < freq - 1; i++) {
-            drawLines(graphics, WIDTH, HEIGHT - (i + 1) * (HEIGHT / freq), WIDTH - (i + 1) * (WIDTH / freq), 0);
-        }
-//        graphics.setColor(Color.decode("#32CD32"));
-//        below: alternative method for providing color in hex
-        graphics.setColor(new Color(0x32CD32));
-        for (int i = 0; i < freq - 1; i++) {
-            drawLines(graphics, 0, (i + 1) * (HEIGHT / freq), (i + 1) * (WIDTH / freq), HEIGHT);
-        }
+        int originX = 0;
+        int originY = HEIGHT;
+        int size = WIDTH;
+        drawLinePlay(graphics, originX, originY, size, freq);
+        drawLinePlayMirror(graphics, originX, originY, size, freq);
     }
 
     public static void drawLines(Graphics g, int x1, int y1, int x2, int y2) {
@@ -24,8 +19,16 @@ public class W03D05_LinePlay_parametric {
     }
 
     public static void drawLinePlay(Graphics g, int originX, int originY, int size, int freq) {
+        g.setColor(PURPLE);
         for (int i = 0; i < freq - 1; i++) {
-            drawLines(g, originX + (i + 1) * (size / freq), originY, originX, originY - (i + 1) * (size / freq));
+            drawLines(g, originX + (i + 1) * (size / freq), originY, originX, originY - size+(i+1)*(size/freq));
+        }
+    }
+
+    public static void drawLinePlayMirror(Graphics g, int originX, int originY, int size, int freq) {
+        g.setColor(new Color(0x32CD32));
+        for (int i = 0; i < freq - 1; i++) {
+            drawLines(g, originX+size-(i+1)*(size/freq), originY-size, originX+size, originY-(i+1)*(size/freq));
         }
     }
 
