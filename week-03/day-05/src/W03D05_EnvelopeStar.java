@@ -61,8 +61,8 @@ public class W03D05_EnvelopeStar {
     }
 
     // Don't touch the code below
-    static int WIDTH = 800;
-    static int HEIGHT = 800;
+    static int WIDTH = 1200;
+    static int HEIGHT = 1200;
 
     public static void main(String[] args) {
         JFrame jFrame = new JFrame("Drawing");

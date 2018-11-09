@@ -46,8 +46,8 @@ public class W03D05_LinePlay_Multiple {
     }
 
     // Don't touch the code below
-    static int WIDTH = 800;
-    static int HEIGHT = 800;
+    static int WIDTH = 1600;
+    static int HEIGHT = 1600;
 
     public static void main(String[] args) {
         JFrame jFrame = new JFrame("Drawing");
