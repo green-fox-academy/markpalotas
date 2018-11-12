@@ -16,7 +16,7 @@ public class W04D01E07_Logs {
         System.out.println("The GET to POST ratio is: " + getToPostRatio("log.txt").get(0) + " : " + getToPostRatio("log.txt").get(1));
     }
 
-    public static List itemList(String logPathString, int indexOfItemToBeListed) {
+    public static List<String> itemList(String logPathString, int indexOfItemToBeListed) {
         List<String> fullItemList = new ArrayList<>();
         List<String> splitContent = new ArrayList<>();
         try {
@@ -39,7 +39,7 @@ public class W04D01E07_Logs {
         return fullItemList;
     }
 
-    public static List makeListUnique(List<String> fullItemList) {
+    public static List<String> makeListUnique(List<String> fullItemList) {
         List<String> uniqueList = new ArrayList<>();
         for (int i = 0; i < fullItemList.size(); i++) {
             if (!uniqueList.contains(fullItemList.get(i))) {
@@ -49,7 +49,7 @@ public class W04D01E07_Logs {
         return uniqueList;
     }
 
-    public static List getToPostRatio(String logPathString) {
+    public static List<Integer> getToPostRatio(String logPathString) {
         List<Integer> getToPost = new ArrayList<>();
         String string1 = "GET";
         String string2 = "POST";
