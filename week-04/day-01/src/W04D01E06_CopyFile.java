@@ -23,8 +23,8 @@ public class W04D01E06_CopyFile {
         boolean copySuccess = true;
         List<String> content = new ArrayList<>();
         try {
-            Path frompath = Paths.get(fromPathString);
-            content = Files.readAllLines(frompath);
+            Path fromPath = Paths.get(fromPathString);
+            content = Files.readAllLines(fromPath);
         } catch (Exception e) {
             copySuccess = false;
         }
