@@ -10,4 +10,13 @@ public class PostIt {
         this.text = text;
         this.textColor = textColor;
     }
+
+    @Override
+    public String toString() {
+        return "PostIt{" +
+                "backgroundColor='" + backgroundColor + '\'' +
+                ", text='" + text + '\'' +
+                ", textColor='" + textColor + '\'' +
+                '}';
+    }
 }
