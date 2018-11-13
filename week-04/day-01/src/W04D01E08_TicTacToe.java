@@ -4,17 +4,27 @@ import java.util.List;
 
 public class W04D01E08_TicTacToe {
     public static void main(String[] args) {
+        String boardPathString = "win-o.txt";
+        System.out.println(ticTacResult(boardPathString));
     }
 
-    public static void ticTacResult(String boardPathString) {
-        List<String> toCheck1 = W04D01E07_Logs_Improved.listGivenItem(W04D01E07_Logs_Improved.readFile(boardPathString), 0);
-        List<String> toCheck2 = W04D01E07_Logs_Improved.listGivenItem(W04D01E07_Logs_Improved.readFile(boardPathString), 1);
-        List<String> toCheck3 = W04D01E07_Logs_Improved.listGivenItem(W04D01E07_Logs_Improved.readFile(boardPathString), 2);
-        List<String> toCheck4 = Arrays.asList(rowParser(boardPathString).get(0));
-        List<String> toCheck5 = Arrays.asList(rowParser(boardPathString).get(1));
-        List<String> toCheck6 = Arrays.asList(rowParser(boardPathString).get(2));
-        List<String> toCheck7 = topLeftDiagParser(boardPathString);
-        List<String> toCheck8 = topRightDiagParser(boardPathString);
+    public static String ticTacResult(String boardPathString) {
+        List<List<String>> toCheck = new ArrayList<>();
+        toCheck.add(columnParser(boardPathString, 0));
+        toCheck.add(columnParser(boardPathString, 1));
+        toCheck.add(columnParser(boardPathString, 2));
+        toCheck.add(Arrays.asList(rowParser(boardPathString).get(0)));
+        toCheck.add(Arrays.asList(rowParser(boardPathString).get(1)));
+        toCheck.add(Arrays.asList(rowParser(boardPathString).get(2)));
+        toCheck.add(topLeftDiagParser(boardPathString));
+        toCheck.add(topRightDiagParser(boardPathString));
+        String winner = "Draw";
+        for (int i = 0; i < toCheck.size(); i++) {
+            if (!listChecker(toCheck.get(i)).equals("null")) {
+                winner = listChecker(toCheck.get(i));
+            }
+        }
+        return winner;
     }
 
     public static List<String[]> rowParser(String boardPathString) {
@@ -23,6 +33,13 @@ public class W04D01E08_TicTacToe {
             rowsArray.add(row.split(""));
         }
         return rowsArray;
+    }
+
+    public static List<String> columnParser(String boardPathString, int indexOfItemToBeListed) {
+        List<String> columnList = new ArrayList<>();
+        for (String row : W04D01E07_Logs_Improved.readFile(boardPathString)) {
+            columnList.add(row.split("")[indexOfItemToBeListed]);
+        } return columnList;
     }
 
     public static List<String> topLeftDiagParser(String boardPathString) {
@@ -42,6 +59,9 @@ public class W04D01E08_TicTacToe {
     }
 
     public static String listChecker(List<String> toCheck) {
-
+        if (toCheck.get(0).equals(toCheck.get(1)) && toCheck.get(1).equals(toCheck.get(2))) {
+            return toCheck.get(0);
+        }
+        return "null";
     }
 }
