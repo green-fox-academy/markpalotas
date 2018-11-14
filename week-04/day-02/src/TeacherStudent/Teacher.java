@@ -11,4 +11,12 @@ public class Teacher {
         this.subject = subject;
         this.age = age;
     }
+
+    public void answer() {
+        this.energy--;
+    }
+
+    public void teach(Student student) {
+        student.learn();
+    }
 }

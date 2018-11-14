@@ -12,5 +12,11 @@ public class Student {
         this.age = age;
     }
 
-    public void learn()
+    public void learn() {
+        this.knowledge++;
+    }
+
+    public void question(Teacher teacher) {
+        teacher.answer();
+    }
 }
