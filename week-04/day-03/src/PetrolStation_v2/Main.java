@@ -1,4 +1,4 @@
-package PetrolStation;
+package PetrolStation_v2;
 
 public class Main {
 
@@ -18,5 +18,6 @@ public class Main {
         System.out.println(car2.gasAmount);
         System.out.println(car3.gasAmount);
         System.out.println(station1.gasAmount);
+        System.out.println("This one seems to work, as well :)");
     }
 }

@@ -1,4 +1,4 @@
-package PetrolStation;
+package PetrolStation_v2;
 
 public class Station {
     double gasAmount;
@@ -9,6 +9,6 @@ public class Station {
 
     public void refill(Car car) {
         this.gasAmount -= car.capacity;
-        car.refill();
+        car.gasAmount += car.capacity;
     }
 }
