@@ -10,8 +10,7 @@ public class Dominoes {
         // Order them into one snake where the adjacent dominoes have the same numbers on their adjacent sides
         // eg: [2, 4], [4, 3], [3, 5] ...
 
-        List<Domino> initDominoes = new ArrayList<Domino>();
-        initDominoes = dominoes;
+        List<Domino> initDominoes = new ArrayList<Domino>(dominoes);
         List<Domino> tempDominoesList = new ArrayList<Domino>();
         Domino nullDomino = new Domino(0, 0);
         Domino[] tempDominoesArray = initDominoes.toArray(new Domino[initDominoes.size()]);
