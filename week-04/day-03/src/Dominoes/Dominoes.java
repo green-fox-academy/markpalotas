@@ -12,22 +12,35 @@ public class Dominoes {
 
         List<Domino> initDominoes = new ArrayList<Domino>();
         initDominoes = dominoes;
-        List<Domino> tempDominoes = new ArrayList<Domino>();
-        tempDominoes = dominoes;
+        List<Domino> tempDominoesList = new ArrayList<Domino>();
+        Domino nullDomino = new Domino(0, 0);
+        Domino[] tempDominoesArray = initDominoes.toArray(new Domino[initDominoes.size()]);
 
         do {
+            tempDominoesList.clear();
             int firstDomino = (int) (Math.random() * (5 + 1));
-            tempDominoes.add(dominoes.get(firstDomino));
-            dominoes.remove(firstDomino);
-            for (Domino domino : dominoes) {
-                if (domino.getLeftSide() == tempDominoes.get(tempDominoes.size() - 1).getRightSide()) {
-                    tempDominoes.add(domino);
-                    dominoes.remove(domino);
+            tempDominoesList.add(tempDominoesArray[firstDomino]);
+            tempDominoesArray[firstDomino] = nullDomino;
+            int counter;
+            do {
+                counter = 0;
+//                the last step (setting the current domino to nullDomino) does not seem to work in the below FOREACH loop
+//
+//                for (Domino domino : tempDominoesArray) {
+//                    if (domino.getRightSide() != 0 && domino.getLeftSide() == tempDominoesList.get(tempDominoesList.size() - 1).getRightSide()) {
+//                        tempDominoesList.add(domino);
+//                        domino = nullDomino;
+                for (int i = 0; i < tempDominoesArray.length; i++) {
+                    if (tempDominoesArray[i].getRightSide() != 0 && tempDominoesArray[i].getLeftSide() == tempDominoesList.get(tempDominoesList.size() - 1).getRightSide()) {
+                        tempDominoesList.add(tempDominoesArray[i]);
+                        tempDominoesArray[i] = nullDomino;
+                    } else counter++;
                 }
-            }
-        } while (tempDominoes.size() != initDominoes.size());
+            } while (counter < 6);
 
-        dominoes = tempDominoes;
+        } while (tempDominoesList.size() != initDominoes.size());
+
+        dominoes = tempDominoesList;
 
         System.out.println(dominoes);
     }
