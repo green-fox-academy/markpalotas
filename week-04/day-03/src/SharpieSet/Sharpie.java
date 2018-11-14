@@ -14,4 +14,13 @@ public class Sharpie {
         this.inkAmount -= .5;
         System.out.println("Remaining ink: " + inkAmount);
     }
+
+    @Override
+    public String toString() {
+        return "Sharpie{" +
+                "color='" + color + '\'' +
+                ", width=" + width +
+                ", inkAmount=" + inkAmount +
+                '}';
+    }
 }

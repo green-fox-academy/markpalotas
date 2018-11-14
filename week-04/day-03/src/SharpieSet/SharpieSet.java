@@ -17,11 +17,25 @@ public class SharpieSet {
     }
 
     public List<Sharpie> removeTrash() {
+        List<Sharpie> notTrash = new ArrayList<>();
         for (Sharpie sharpie : sharpies) {
-            if (sharpie.inkAmount == 0) {
-                sharpies.remove(sharpie);
+            if (sharpie.inkAmount != 0) {
+                notTrash.add(sharpie);
             }
         }
+        sharpies = notTrash;
         return sharpies;
+    }
+
+    public List<Sharpie> add(Sharpie sharpie) {
+        this.sharpies.add(sharpie);
+        return sharpies;
+    }
+
+    @Override
+    public String toString() {
+        return "SharpieSet{" +
+                "sharpies=" + sharpies +
+                '}';
     }
 }
