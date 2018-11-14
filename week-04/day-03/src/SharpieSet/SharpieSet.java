@@ -23,8 +23,7 @@ public class SharpieSet {
                 notTrash.add(sharpie);
             }
         }
-        sharpies = notTrash;
-        return sharpies;
+        return notTrash;
     }
 
     public List<Sharpie> add(Sharpie sharpie) {
