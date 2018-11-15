@@ -17,6 +17,5 @@ public class String2 {
                 return string.substring(0, 1) + string1(string.substring(1));
             }
         }
-
     }
 }
