@@ -6,14 +6,14 @@ package W04D04E1_Recursion_Exercises;
 
 public class SumDigit {
     public static void main(String[] args) {
-        System.out.println(sumDigit(5));
+        System.out.println(sumDigit(356));
     }
 
     public static int sumDigit(int n) {
-        if (n == 0) {
-            return 0;
+        if (n < 10) {
+            return n%10;
         } else {
-            return n + sumDigit(n - 1);
+            return n % 10 + sumDigit(n / 10);
         }
     }
 }
