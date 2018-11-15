@@ -5,7 +5,7 @@ package W04D04E1_Recursion_Exercises;
 
 public class String1_v2 {
     public static void main(String[] args) {
-        System.out.println(string1("X"));
+        System.out.println(string1("XxxxyyyY"));
     }
 
     public static String string1(String string) {
