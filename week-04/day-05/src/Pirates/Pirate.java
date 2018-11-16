@@ -8,6 +8,8 @@ public class Pirate {
     private boolean isPassedOut = false;
     private int eventCounter = 0;
     private int lastPassOutEvent;
+    private boolean isCaptain = false;
+    private String whichShip;
 
     public Pirate() {
 
@@ -87,6 +89,7 @@ public class Pirate {
         if (lastPassOutEvent != 0) {
             if (eventCounter - lastPassOutEvent >= 5) {
                 this.isPassedOut = false;
+                this.howDrunk = 0;
             }
         }
     }
@@ -115,11 +118,11 @@ public class Pirate {
             this.eventCounter();
         } else if (pirate.isDead) {
             pirate.countIsDead();
-        } else if (outcome = 0) {
+        } else if (outcome == 0) {
             System.out.println("That went well...");
             this.die();
             pirate.die();
-        } else if (outcome = 1) {
+        } else if (outcome == 1) {
             System.out.println("Good job, " + this.name);
             pirate.die();
             this.eventCounter();
@@ -128,5 +131,37 @@ public class Pirate {
             this.die();
             pirate.eventCounter();
         }
+    }
+
+    public void appointCaptain() {
+        if (isDead) {
+            countIsDead();
+            System.out.println("Not happening...Dead men make no good capt'n...");
+        } else if (isPassedOut) {
+            eventCounter();
+            System.out.println("Ya sure being passed-out is a good start for a capt'n? Well, not my problem anyway...");
+        } else {
+            eventCounter();
+            isCaptain = true;
+        }
+    }
+
+    public void assignShip(String shipName) {
+        this.whichShip = shipName;
+    }
+
+    public boolean isAlive() {
+        return !isDead;
+    }
+
+    @Override
+    public String toString() {
+        String answer = name + " has consumed " + howDrunk + " bottles of rum so far ";
+        if (this.isDead) {
+            answer = answer + "and is quite dead...";
+        } else if (this.isPassedOut) {
+            answer = answer + " and accordingly, he's passed out...";
+        }
+        return answer;
     }
 }
