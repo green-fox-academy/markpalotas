@@ -109,7 +109,9 @@ public class Pirate {
 
     public void brawl(Pirate pirate) {
         int outcome = (int) (Math.random() * 3);
-        if (this.isDead) {
+        if (pirate == this) {
+            System.out.println("Ayyya, maate, ya serious? Ya really think I'll beat myself up...?");
+        } else if (this.isDead) {
             countIsDead();
         } else if (this.isPassedOut) {
             System.out.println("Not happening, " + this.name + "is passed out right now");
