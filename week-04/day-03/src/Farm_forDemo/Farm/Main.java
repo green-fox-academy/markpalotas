@@ -2,7 +2,7 @@ package Farm_forDemo.Farm;
 
 public class Main {
     public static void main(String[] args) {
-        Animal pig1 = new Animal("pig1");
+
         Animal pig2 = new Animal("pig2");
         Animal pig3 = new Animal("pig3");
         Animal pig4 = new Animal("pig4");
@@ -10,7 +10,9 @@ public class Main {
         Animal cow2 = new Animal("cow2");
         Animal cow3 = new Animal("cow3");
         Animal cow4 = new Animal("cow4");
+        Animal pig1 = new Animal("pig1");
         Farm bigFarm = new Farm();
+        bigFarm.farmAnimals.add(pig1);
         System.out.println(bigFarm.emptySlots);
         bigFarm.addAnimal(pig1);
         bigFarm.addAnimal(pig2);
@@ -32,5 +34,6 @@ public class Main {
         smallFarm.breed();
         System.out.println(smallFarm);
         smallFarm.breed();
+        bigFarm.emptySlots = 50;
     }
 }
