@@ -31,10 +31,10 @@ public class Pirate {
         }
         if (isPassedOut) {
             System.out.println("Nice try, but not even a pirate can drink when passed out...");
-            eventCounter++;
+            eventCounter();
         } else {
             howDrunk++;
-            eventCounter++;
+            eventCounter();
         }
     }
 
@@ -45,13 +45,13 @@ public class Pirate {
 
     private void tellIsDead() {
         if (isDeadCount == 0) {
-            System.out.println("He is dead");
+            System.out.println(this.name + " is dead");
         } else if (isDeadCount == 1) {
-            System.out.println("I'm still pretty sure he's dead);");
+            System.out.println("I'm still pretty sure " + this.name + "dead);");
         } else if (isDeadCount == 2) {
-            System.out.println("Get lost, I've toldya he's dead);");
+            System.out.println("Get lost, I've toldya " + this.name + " is dead);");
         } else {
-            System.out.println("...not tellin' ya 'gain...");
+            System.out.println("...not tellin' ya 'gain " + this.name + "is dead...aaargh...I just did...");
         }
     }
 
@@ -61,10 +61,10 @@ public class Pirate {
         }
         if (isPassedOut) {
             System.out.println("Nice try, but not even a pirate can drink when passed out...");
-            eventCounter++;
+            eventCounter();
         } else {
             howDrunk += n;
-            eventCounter++;
+            eventCounter();
         }
     }
 
@@ -73,20 +73,60 @@ public class Pirate {
             countIsDead();
         } else if (isPassedOut) {
             System.out.println("Leave'm alone, he's sleeping it off");
-            eventCounter++;
+            eventCounter();
         } else if (this.howDrunk <= 4) {
             System.out.println("Pour me anudder, ya bastard!");
-            eventCounter++;
+            eventCounter();
         } else {
-            System.out.println("Arghh, I'ma Pirate. How d'ya d'ink its goin?");
-            this.isPassedOut = true;
-            this.lastPassOutEvent = eventCounter;
+            passOut();
         }
     }
 
-    public void eventCounter() {
-        
+    private void eventCounter() {
+        eventCounter++;
+        if (lastPassOutEvent != 0) {
+            if (eventCounter - lastPassOutEvent >= 5) {
+                this.isPassedOut = false;
+            }
+        }
     }
 
-    public
+    private void passOut() {
+        System.out.println("Arghh, I'ma Pirate. How d'ya d'ink its goin?");
+        this.isPassedOut = true;
+        this.lastPassOutEvent = eventCounter;
+        eventCounter();
+    }
+
+    public void die() {
+        isPassedOut = false;
+        isDead = true;
+        System.out.println(this.name + " has just died...RIP");
+    }
+
+    public void brawl(Pirate pirate) {
+        int outcome = (int) (Math.random() * 3);
+        if (this.isDead) {
+            countIsDead();
+        } else if (this.isPassedOut) {
+            System.out.println("Not happening, " + this.name + "is passed out right now");
+        } else if (pirate.isPassedOut) {
+            System.out.println("That's kinda perverted, mate, trying to brawl with a passed-out guy...");
+            this.eventCounter();
+        } else if (pirate.isDead) {
+            pirate.countIsDead();
+        } else if (outcome = 0) {
+            System.out.println("That went well...");
+            this.die();
+            pirate.die();
+        } else if (outcome = 1) {
+            System.out.println("Good job, " + this.name);
+            pirate.die();
+            this.eventCounter();
+        } else {
+            System.out.println("Good job, " + pirate.name);
+            this.die();
+            pirate.eventCounter();
+        }
+    }
 }
