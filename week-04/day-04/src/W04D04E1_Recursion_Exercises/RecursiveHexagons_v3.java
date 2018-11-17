@@ -6,9 +6,13 @@ import java.awt.*;
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
 public class RecursiveHexagons_v3 {
+
+//    managed to include the step drawing the "main" hexagon (the largest one, that contains all the others)
+//    in the recursive function. Not really elegant, though, as it is drawn each time the function calls
+//    itself, not just once.
+
     public static void mainDraw(Graphics graphics) {
-        drawRecursiveHexagons(graphics, WIDTH / 4, 0, WIDTH / 4, 3
-        );
+        drawRecursiveHexagons(graphics, WIDTH / 4, 0, WIDTH / 4, 5);
     }
 
     public static void drawHexagon(Graphics g, int x0, int y0, int sideLength) {
@@ -20,14 +24,16 @@ public class RecursiveHexagons_v3 {
     }
 
     public static void drawRecursiveHexagons(Graphics g, int x0, int y0, int sideLength, int counter) {
+//        The first drawHexagon call (currently in line 31) could have been placed here, as well.
         if (counter == 0) {
-            drawHexagon(g, x0, y0, sideLength*2);
+            return;
         } else {
+            drawHexagon(g, x0, y0, sideLength * 2);
             int h2 = (int) (Math.sqrt(Math.pow(sideLength, 2) - Math.pow(sideLength / 2, 2)));
             drawHexagon(g, x0, y0, sideLength);
-            drawRecursiveHexagons(g, x0, y0, sideLength / 2, counter-1);
-            drawHexagon(g, x0 + 3 * sideLength/2, y0 + h2, sideLength);
-            drawRecursiveHexagons(g, x0 + 3 * sideLength/2, y0 + h2, sideLength / 2, counter-1);
+            drawRecursiveHexagons(g, x0, y0, sideLength / 2, counter - 1);
+            drawHexagon(g, x0 + 3 * sideLength / 2, y0 + h2, sideLength);
+            drawRecursiveHexagons(g, x0 + 3 * sideLength / 2, y0 + h2, sideLength / 2, counter - 1);
             drawHexagon(g, x0, y0 + 2 * h2, sideLength);
             drawRecursiveHexagons(g, x0, y0 + 2 * h2, sideLength / 2, counter - 1);
         }
