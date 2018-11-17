@@ -16,8 +16,8 @@ public class Circles {
             return;
         } else {
             g.drawOval(x0 + diameter / 2, y0, WIDTH / 2, WIDTH / 2);
-            g.drawOval(x0 + diameter / 6, y0 + 5 * diameter / 6, WIDTH / 2, WIDTH / 2);
-            g.drawOval(x0 + diameter, y0 + 5 * diameter / 6, WIDTH / 2, WIDTH / 2);
+            g.drawOval((int) (x0 + (diameter / 4) * (1 + Math.cos(Math.toRadians(30)))), (int) (y0 + (diameter / 4) * (1 + Math.sin(Math.toRadians(30)))), WIDTH / 2, WIDTH / 2);
+//            g.drawOval((int) (x0 + (diameter / 4) * (1 - Math.cos(Math.toRadians(30)))), (int) (y0 + (diameter / 4) * (1 + Math.sin(Math.toRadians(30)))), WIDTH / 2, WIDTH / 2);
         }
     }
 
