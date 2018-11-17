@@ -5,10 +5,10 @@ import java.awt.*;
 
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
-public class RecursiveHexagons {
+public class RecursiveHexagons_v2 {
     public static void mainDraw(Graphics graphics) {
-        drawRecursiveHexagons(graphics, WIDTH / 4, 0, WIDTH / 4, 3
-        );
+        drawHexagon(graphics, WIDTH / 4, (int)((HEIGHT - 2 * (Math.sqrt(Math.pow(WIDTH / 2, 2) - Math.pow(WIDTH / 4, 2)))) / 2), WIDTH / 2);
+        drawRecursiveHexagons(graphics, WIDTH / 4, (int)((HEIGHT - 2 * (Math.sqrt(Math.pow(WIDTH / 2, 2) - Math.pow(WIDTH / 4, 2)))) / 2), WIDTH / 4, 5);
     }
 
     public static void drawHexagon(Graphics g, int x0, int y0, int sideLength) {
@@ -21,7 +21,7 @@ public class RecursiveHexagons {
 
     public static void drawRecursiveHexagons(Graphics g, int x0, int y0, int sideLength, int counter) {
         if (counter == 0) {
-            drawHexagon(g, x0, y0, sideLength*2);
+            return;
         } else {
             int h2 = (int) (Math.sqrt(Math.pow(sideLength, 2) - Math.pow(sideLength / 2, 2)));
             drawHexagon(g, x0, y0, sideLength);

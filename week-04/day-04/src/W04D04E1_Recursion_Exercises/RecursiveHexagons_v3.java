@@ -5,7 +5,7 @@ import java.awt.*;
 
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
-public class RecursiveHexagons {
+public class RecursiveHexagons_v3 {
     public static void mainDraw(Graphics graphics) {
         drawRecursiveHexagons(graphics, WIDTH / 4, 0, WIDTH / 4, 3
         );
