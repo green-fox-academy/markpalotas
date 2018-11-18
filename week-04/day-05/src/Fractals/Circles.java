@@ -8,16 +8,19 @@ import static javax.swing.JFrame.EXIT_ON_CLOSE;
 public class Circles {
     public static void mainDraw(Graphics graphics) {
         graphics.drawOval(0, 0, WIDTH, WIDTH);
-        drawCircleFractal(graphics, 0, 0, WIDTH / 2, 1);
+        drawCircleFractal(graphics, 0, 0, WIDTH / 2, 7);
     }
 
     public static void drawCircleFractal(Graphics g, int x0, int y0, int diameter, int counter) {
         if (counter == 0) {
             return;
         } else {
-            g.drawOval(x0 + diameter / 2, y0, WIDTH / 2, WIDTH / 2);
-            g.drawOval((int) (x0 + (diameter / 4) * (1 + Math.cos(Math.toRadians(30)))), (int) (y0 + (diameter / 4) * (1 + Math.sin(Math.toRadians(30)))), WIDTH / 2, WIDTH / 2);
-//            g.drawOval((int) (x0 + (diameter / 4) * (1 - Math.cos(Math.toRadians(30)))), (int) (y0 + (diameter / 4) * (1 + Math.sin(Math.toRadians(30)))), WIDTH / 2, WIDTH / 2);
+            g.drawOval(x0 + diameter/2, y0, diameter, diameter);
+            drawCircleFractal(g, x0 + diameter / 2, y0, diameter / 2, counter - 1);
+            g.drawOval((int) (x0 + (1 - Math.cos(Math.toRadians(30))) * diameter / 2), (int) (y0 + (1 + Math.sin(Math.toRadians(30))) * diameter / 2), diameter, diameter);
+            drawCircleFractal(g, (int) (x0 + (1 - Math.cos(Math.toRadians(30))) * diameter / 2), (int) (y0 + (1 + Math.sin(Math.toRadians(30))) * diameter / 2), diameter / 2, counter - 1);
+            g.drawOval((int) (x0 + (1 + Math.cos(Math.toRadians(30))) * diameter / 2), (int) (y0 + (1 + Math.sin(Math.toRadians(30))) * diameter / 2), diameter, diameter);
+            drawCircleFractal(g, (int) (x0 + (1 + Math.cos(Math.toRadians(30))) * diameter / 2), (int) (y0 + (1 + Math.sin(Math.toRadians(30))) * diameter / 2), diameter / 2, counter - 1);
         }
     }
 
