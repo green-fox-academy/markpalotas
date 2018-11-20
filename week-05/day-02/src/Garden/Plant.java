@@ -11,8 +11,11 @@ public class Plant {
 
     public enum Type {tree, flower}
 
-    public Plant(String color) {
+    public Plant(String color, Type type, int percentageOfWaterAbsorbed, int thirstThreshold) {
         this.color = color;
+        this.type = type;
+        this.percentageOfWaterAbsorbed = percentageOfWaterAbsorbed;
+        this.thirstThreshold = thirstThreshold;
     }
 
     public void checkThirst() {
@@ -25,14 +28,6 @@ public class Plant {
 
     public void water(int liters) {
         currentWater += liters * percentageOfWaterAbsorbed / 100;
-    }
-
-    public int getThirstThreshold() {
-        return thirstThreshold;
-    }
-
-    public void setThirstThreshold(int thirstThreshold) {
-        this.thirstThreshold = thirstThreshold;
     }
 
     public String getColor() {
@@ -51,19 +46,21 @@ public class Plant {
         this.currentWater = currentWater;
     }
 
-    public int getPercentageOfWaterAbsorbed() {
-        return percentageOfWaterAbsorbed;
-    }
-
-    public void setPercentageOfWaterAbsorbed(int percentageOfWaterAbsorbed) {
-        this.percentageOfWaterAbsorbed = percentageOfWaterAbsorbed;
-    }
-
     public Type getType() {
         return type;
     }
 
     public void setType(Type type) {
         this.type = type;
+    }
+
+    @Override
+    public String toString() {
+        checkThirst();
+        if (needsWater) {
+            return "The " + getColor() + " " + getType() + " needs water.";
+        } else {
+            return "The " + getColor() + " " + getType() + " doesn't need water.";
+        }
     }
 }

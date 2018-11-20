@@ -12,14 +12,14 @@ public class Main {
         myGarden.addToGarden(tree1);
         myGarden.addToGarden(tree2);
         myGarden.introGarden();
-        myGarden.soutThirsty();
+        System.out.println(myGarden.toString());
         int waterAmount = 40;
         myGarden.waterTheGarden(waterAmount);
         System.out.println("Watering with " + waterAmount + " liters.");
-        myGarden.soutThirsty();
+        System.out.println(myGarden.toString());
         waterAmount = 70;
         myGarden.waterTheGarden(waterAmount);
         System.out.println("Watering with " + waterAmount + " liters.");
-        myGarden.soutThirsty();
+        System.out.println(myGarden.toString());
     }
 }

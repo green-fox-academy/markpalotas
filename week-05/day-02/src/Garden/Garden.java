@@ -19,32 +19,24 @@ public class Garden {
         this.name = name;
     }
 
-    public void addToGarden(Flower flower) {
-        flowersAndTrees.add(flower);
+    public void addToGarden(Plant plant) {
+        flowersAndTrees.add(plant);
     }
 
-    public void addToGarden(Tree tree) {
-        flowersAndTrees.add(tree);
-    }
-
-    public int countTrees() {
-        int counter = 0;
-        for (int i = 0; i < flowersAndTrees.size(); i++) {
-            if (flowersAndTrees.get(i).getType() == Plant.Type.tree) {
-                counter++;
+    public List<Integer> countTypes() {
+        int treeCount = 0;
+        int flowerCount = 0;
+        List<Integer> counts = new ArrayList<>();
+        for (Plant plant : flowersAndTrees) {
+            if (plant instanceof Tree) {
+                treeCount++;
+            } else if (plant instanceof Flower) {
+                flowerCount++;
             }
         }
-        return counter;
-    }
-
-    public int countFlowers() {
-        int counter = 0;
-        for (int i = 0; i < flowersAndTrees.size(); i++) {
-            if (flowersAndTrees.get(i).getType() == Plant.Type.flower) {
-                counter++;
-            }
-        }
-        return counter;
+        counts.add(treeCount);
+        counts.add(flowerCount);
+        return counts;
     }
 
     public String treeColor() {
@@ -76,7 +68,7 @@ public class Garden {
     }
 
     public void introGarden() {
-        System.out.println("This is our garden called " + name + ", which contains " + countTrees() + " trees and " + countFlowers() + " flowers. The trees are " + treeColor() + ", whereas the flowers are of the following colors: " + flowerColor() + ".");
+        System.out.println("This is our garden called " + name + ", which contains " + countTypes().get(0) + " trees and " + countTypes().get(1) + " flowers. The trees are " + treeColor() + ", whereas the flowers are of the following colors: " + flowerColor() + ".");
     }
 
     public int countThirsty() {
@@ -90,22 +82,18 @@ public class Garden {
         return counter;
     }
 
-    public void soutThirsty() {
-        int counter = 0;
-        for (Plant plant : flowersAndTrees) {
-            plant.checkThirst();
-            if (plant.isNeedsWater()) {
-                System.out.println("The " + plant.getColor() + " " + plant.getType() + " needs water.");
-                counter++;
-            } else {
-                System.out.println("The " + plant.getColor() + " " + plant.getType() + " doesn't need water.");
-            }
-        }
-    }
-
     public void waterTheGarden(int totalLiters) {
         for (Plant plant : flowersAndTrees) {
             plant.water(totalLiters / countThirsty());
         }
+    }
+
+    @Override
+    public String toString() {
+        String allPlants = "";
+        for (Plant plant : flowersAndTrees) {
+            allPlants = allPlants + plant.toString() + "\n";
+        }
+        return allPlants;
     }
 }
