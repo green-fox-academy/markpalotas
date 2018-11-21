@@ -43,7 +43,7 @@ public class Student extends Person implements Cloneable {
     }
 
     @Override
-    protected Object clone() throws CloneNotSupportedException {
+    protected Student clone() throws CloneNotSupportedException {
         Student clonedStudent;
         clonedStudent = ((Student) super.clone());
         clonedStudent.setName("JohnTheClone");
