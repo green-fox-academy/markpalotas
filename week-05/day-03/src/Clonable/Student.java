@@ -44,7 +44,6 @@ public class Student extends Person implements Cloneable {
 
     public Student myClone(String cloneName) {
         Student clonedStudent = new Student();
-        clonedStudent = this;
         clonedStudent.setName(cloneName);
         return clonedStudent;
     }

@@ -9,5 +9,6 @@ public class Main {
         } catch (Exception e) {
             System.out.println("Exception");
         }
+        System.out.println(student1);
     }
 }
