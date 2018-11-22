@@ -6,9 +6,11 @@ import java.util.List;
 import java.util.Map;
 
 public class LettersToCount {
+//    does not work if there are multiple instances of the last character in the sorted CharArray
     public static Map countTheLetters(String str) {
         char[] stringAsChar = str.toLowerCase().toCharArray();
         Arrays.sort(stringAsChar);
+        System.out.println(stringAsChar);
         List<Character> charList = new ArrayList<>();
         List<Integer> countList = new ArrayList<>();
         int letterCounter = 1;
