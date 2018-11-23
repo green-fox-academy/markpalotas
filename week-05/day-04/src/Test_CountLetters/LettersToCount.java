@@ -6,31 +6,38 @@ import java.util.List;
 import java.util.Map;
 
 public class LettersToCount {
-//    does not work if there are multiple instances of the last character in the sorted CharArray
     public static Map countTheLetters(String str) {
-        char[] stringAsChar = str.toLowerCase().toCharArray();
+        if (str.equals("")) {
+            throw new IndexOutOfBoundsException();
+        }
+        char[] stringAsChar = str.toCharArray();
         Arrays.sort(stringAsChar);
-        System.out.println(stringAsChar);
         List<Character> charList = new ArrayList<>();
         List<Integer> countList = new ArrayList<>();
         int letterCounter = 1;
-        for (int i = 0; i < str.length() - 1; i++) {
-            if (stringAsChar[i] == stringAsChar[i + 1]) {
-                letterCounter++;
-            } else {
-                charList.add(stringAsChar[i]);
-                countList.add(letterCounter);
-                letterCounter = 1;
-            }
-        }
-        if (charList.size() <= 1) {
-            charList.add(stringAsChar[stringAsChar.length - 1]);
-            countList.add(1);
-        } else if (stringAsChar[stringAsChar.length - 1] == stringAsChar[stringAsChar.length - 2]) {
-            countList.set(countList.size() - 1, countList.get(countList.size() - 1) + 1);
+        if (str.length() == 1) {
+            charList.add(stringAsChar[0]);
+            countList.add(letterCounter);
         } else {
-            charList.add(stringAsChar[stringAsChar.length - 1]);
-            countList.add(1);
+            for (int i = 0; i < str.length(); i++) {
+                if (!charList.contains(stringAsChar[i])) {
+                    charList.add(stringAsChar[i]);
+                }
+            }
+            for (int j = 0; j < str.length() - 1; j++) {
+                if (stringAsChar[j] == stringAsChar[j + 1]) {
+                    letterCounter++;
+                    if (j + 1 == str.length() - 1) {
+                        countList.add(letterCounter);
+                    }
+                } else {
+                    countList.add(letterCounter);
+                    letterCounter = 1;
+                    if (j + 1 == str.length() - 1) {
+                        countList.add(1);
+                    }
+                }
+            }
         }
         return MyMap.combineTwoListsIntoMap(charList, countList);
     }
