@@ -1,5 +1,3 @@
-package W02D01_ParametricAverage;
-
 public class W02D01_DrawChessTable {
     public static void main(String[] args) {
         String a = "%";

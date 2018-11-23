@@ -12,7 +12,7 @@ public class Main {
         Animal cow4 = new Animal("cow4");
         Animal pig1 = new Animal("pig1");
         Farm bigFarm = new Farm();
-        bigFarm.farmAnimals.add(pig1);
+//        bigFarm.farmAnimals.add(pig1);
         System.out.println(bigFarm.emptySlots);
         bigFarm.addAnimal(pig1);
         bigFarm.addAnimal(pig2);
