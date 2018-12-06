@@ -1,0 +1,57 @@
+body {
+    background-color: blue;
+}
+
+table {
+    font-family: Tahoma;
+    font-size: 22px;
+    border-collapse: separate;
+    margin: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    border-spacing: 0;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+tbody tr:nth-child(even) {
+    background-color: white;
+}
+
+thead {
+    font-family: Calibri;
+    font-size: 30px;
+    background-color: black;
+    color: aliceblue;
+    border-bottom: 4px solid gray;
+}
+
+td {
+    height: 70px;
+    color: dimgray;
+    padding-left: 40px;
+    border-top: 2px solid gray;
+}
+
+th {
+    text-align: start;
+    height: 80px;
+    width: 300px;
+    padding-left: 40px;
+}
+
+.month {
+    border-right: 2px solid gray;
+}
+
+tbody tr:last-child td:last-child {
+    border-bottom: 1px solid gray;
+    border-bottom-right-radius: 10px;
+}
+
+.last {
+    border-bottom: 1px solid gray;
+    border-bottom-left-radius: 10px;
+}
