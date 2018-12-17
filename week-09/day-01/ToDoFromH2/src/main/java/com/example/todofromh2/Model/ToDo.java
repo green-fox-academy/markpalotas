@@ -1,4 +1,4 @@
-package com.example.todofromh2;
+package com.example.todofromh2.Model;
 
 public class ToDo {
     Long id;
