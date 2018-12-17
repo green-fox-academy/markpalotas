@@ -152,6 +152,25 @@ ON Movie.mID=Rating.mID
 WHERE Movie.year > 1980
 GROUP BY Movie.mID) AS result);
 
+SELECT 
+(SELECT AVG(result.avgStar)
+FROM
+(SELECT Movie.mID, AVG(stars) AS avgStar
+FROM Movie
+JOIN Rating
+ON Movie.mID = Rating.mID
+WHERE Movie.year < 1980
+GROUP BY Movie.mID) AS result) 
+-
+(SELECT AVG(result.avgStar)
+FROM
+(SELECT Movie.mID, AVG(stars) AS avgStar
+FROM Movie
+JOIN Rating
+ON Movie.mID = Rating.mID
+WHERE Movie.year > 1980
+GROUP BY Movie.mID) AS result);
+
 
 
 
@@ -216,6 +235,15 @@ UNION
 SELECT Reviewer.name AS namesAndTitles
 FROM Reviewer
 ORDER BY namesAndTitles ASC;
+
+SELECT director AS names 
+FROM movie
+WHERE director IS NOT NULL
+UNION
+SELECT name AS names 
+FROM reviewer
+WHERE name IS NOT NULL
+;
 
 
 
@@ -430,3 +458,98 @@ ON Rating.mID=Movie.mID
 WHERE stars = (SELECT MIN(stars) FROM Rating);
 
 'this last one works as expected both in SQLite and mySQL'
+
+
+
+Q7
+
+'List movie titles and average ratings, from highest-rated to lowest-rated. If two 
+or more movies have the same average rating, list them in alphabetical order.'
+
+SELECT title, AVG(stars)
+FROM movie
+JOIN rating
+ON movie.mID=rating.mID
+GROUP BY rating.mID
+ORDER BY AVG(stars) DESC, title ASC;
+
+
+
+Q8
+
+'Find the names of all reviewers who have contributed three or more ratings. 
+(As an extra challenge, try writing the query without HAVING or without COUNT.) '
+
+SELECT name 
+FROM rating
+JOIN reviewer
+ON rating.rID=reviewer.rID
+GROUP BY rating.rID
+HAVING Count(*)>=3;
+
+SELECT name 
+FROM 
+(SELECT rID, count(*) AS mycount
+FROM rating
+GROUP BY rID) AS counttable
+JOIN reviewer
+ON reviewer.rID=counttable.rID 
+WHERE mycount>=3;
+
+'without HAVING / COUNT?'
+
+SELECT R1.rID, R1.mID, R1.stars, R1.ratingDate
+FROM rating R1, rating R2, rating R3
+WHERE 
+    (R1.rID=R2.rID AND R2.rID=R3.rID) 
+    AND 
+    (R1.ratingDate!=R2.ratingDate AND R1.ratingDate!=R3.ratingDate AND R2.ratingDate!=R3.ratingDate);
+
+
+SELECT R1.rID, R1.mID, R1.stars, R1.ratingDate
+FROM rating R1, rating R2, rating R3
+WHERE 
+    (R1.rID=R2.rID AND R2.rID=R3.rID) 
+    AND 
+    (R1.ratingDate!=R2.ratingDate AND R1.ratingDate!=R3.ratingDate);
+
+
+SELECT R1.rID, R1.mID, R1.stars, R1.ratingDate
+FROM rating R1, rating R2, rating R3
+WHERE 
+    (R1.rID=R2.rID AND R2.rID=R3.rID) 
+    AND 
+    ((R1.ratingDate!=R2.ratingDate AND R1.ratingDate!=R3.ratingDate) 
+    OR (R1.ratingDate!=R2.ratingDate AND R1.ratingDate!=R3.ratingDate AND R2.ratingDate!=R3.ratingDate));
+
+'still ??????????????'
+
+
+Q9
+
+'Some directors directed more than one movie. For all such directors, return the
+titles of all movies directed by them, along with the director name. Sort by 
+director name, then movie title. (As an extra challenge, try writing the query both 
+with and without COUNT.) '
+
+SELECT title, movie.director
+FROM
+(SELECT director, COUNT(*) AS mycount
+FROM movie
+GROUP BY director) AS counttable
+JOIN movie
+ON movie.director=counttable.director
+WHERE mycount>=2
+ORDER BY movie.director, title;
+
+'above works, but WITH count'
+
+SELECT *
+FROM movie AS m1, movie AS m2;
+
+SELECT m1.title, m1.director
+FROM movie AS m1, movie AS m2
+WHERE m1.title!=m2.title
+AND m1.director=m2.director
+ORDER BY m1.director, m1.title;
+
