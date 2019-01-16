@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
-<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css" th:href="@{/css/style.css}"/>
     <title>Your ToDos for Today</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 </head>
@@ -8,21 +9,21 @@
 <div>
     <h1>Todos for Today</h1>
 </div>
-<table border="1px" style="border-collapse: collapse;">
+<table>
     <thead>
       <tr>
-        <th><h2>ID</h2></th>
-        <th><h2>Action</h2></th>
-        <th><h2>Done</h2></th>
-        <th><h2>Urgent</h2></th>
+        <th><h3>ID</h3></th>
+        <th><h3>Action</h3></th>
+        <th><h3>Done</h3></th>
+        <th><h3>Urgent</h3></th>
       </tr>
     </thead>
     <tbody>
       <tr th:each="todo : ${todos}">
-        <td th:text="${todo.id}"></td>
-        <td th:text="${todo.title}"></td>
-        <td th:text="${todo.done}"></td>
-        <td th:text="${todo.urgent}"></td>
+        <td class="col1" th:text="${todo.id}"></td>
+        <td class="col2" th:text="${todo.title}"></td>
+        <td class="col3" th:text="${todo.done}"></td>
+        <td class="col4" th:text="${todo.urgent}"></td>
       </tr>
     </tbody>
 </table>
