@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Your ToDos for Today</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<div>
+    <a th:href="@{/todo/add}">Add new ToDo</a>
+</div>
+<div>
+    <h1 th:text="'ToDos for today:'"></h1>
+</div>
+<!--<div>-->
+    <!--<ul th:each="todo : ${todos}">-->
+        <!--<li th:text="${todo.title}"></li>-->
+    <!--</ul>-->
+<!--</div>-->
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Action</th>
+        <th>Done</th>
+        <th>Urgent</th>
+    </tr>
+    <tr  th:each="todo : ${todos}" th:object="${todo}">
+        <td th:text="*{id}"></td>
+        <td th:text="*{title}"></td>
+        <td th:text="*{done}"></td>
+        <td th:text="*{urgent}"></td>
+        <td><a th:href="@{/todo/{id}/delete(id=*{id})}">Delete this todo</a></td>
+        <td><a th:href="@{/todo/{id}/edit(id=*{id})}">Edit this todo</a></td>
+
+    </tr>
+    <!--<tr  th:each="todo : ${todos}">-->
+        <!--<td th:text="${todo.id}"></td>-->
+        <!--<td th:text="${todo.title}"></td>-->
+        <!--<td th:text="${todo.done}"></td>-->
+        <!--<td th:text="${todo.urgent}"></td>-->
+    <!--</tr>-->
+</table>
+</body>
+</html>

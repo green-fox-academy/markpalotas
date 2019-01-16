@@ -19,6 +19,12 @@ public class ToDo {
         this.title = title;
     }
 
+    public ToDo(String title, Boolean urgent, Boolean done) {
+        this.title = title;
+        this.urgent = urgent;
+        this.done = done;
+    }
+
 //    public ToDo(Long id, String title, Boolean urgent, Boolean done) {
 //        this.id = id;
 //        this.title = title;

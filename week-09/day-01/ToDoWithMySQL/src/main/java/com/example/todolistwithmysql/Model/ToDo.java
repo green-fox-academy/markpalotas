@@ -12,6 +12,22 @@ public class ToDo {
     Boolean urgent = false;
     Boolean done = false;
 
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public void setUrgent(Boolean urgent) {
+        this.urgent = urgent;
+    }
+
+    public void setDone(Boolean done) {
+        this.done = done;
+    }
+
     public ToDo() {
     }
 
@@ -19,12 +35,11 @@ public class ToDo {
         this.title = title;
     }
 
-//    public ToDo(Long id, String title, Boolean urgent, Boolean done) {
-//        this.id = id;
-//        this.title = title;
-//        this.urgent = urgent;
-//        this.done = done;
-//    }
+    public ToDo(String title, Boolean urgent, Boolean done) {
+        this.title = title;
+        this.urgent = urgent;
+        this.done = done;
+    }
 
     public Long getId() {
         return id;
