@@ -1,5 +1,6 @@
 package com.todoapprevisited.todoappretake.Controllers;
 
+import com.todoapprevisited.todoappretake.Exceptions.TodoNotFoundException;
 import com.todoapprevisited.todoappretake.Model.Todo;
 import com.todoapprevisited.todoappretake.Services.TodoService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -48,4 +49,33 @@ public class TodoController {
         return "redirect:/todo";
     }
 
+    @GetMapping("/{id}/delete")
+    public String deleteTodo(@PathVariable("id") Long id) throws TodoNotFoundException {
+        todoService.delete(todoService.findById(id));
+        return "redirect:/todo/list";
+    }
+
+    @GetMapping("/{id}/edit")
+    public String updateTodo(Model model, @PathVariable("id") Long id) throws TodoNotFoundException {
+        model.addAttribute("todo", todoService.findById(id));
+        return "edittodoform";
+    }
+
+    @PostMapping("/{id}/edit")
+    public String updateTodo(@ModelAttribute("todoMod") Todo todo) {
+        todoService.save(todo);
+        return "redirect:/todo/list";
+    }
+
+//    @PostMapping(value = "/{id}/edit")
+//    public String editToDo(@ModelAttribute("todoMod") ToDo toDo) {
+//        toDoService.save(toDo);
+//        return "redirect:/todo";
+//    }
+
+    @ExceptionHandler(TodoNotFoundException.class)
+    @ResponseBody
+    public String todoNotFound() {
+        return "Todo not found";
+    }
 }

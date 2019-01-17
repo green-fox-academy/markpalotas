@@ -4,8 +4,9 @@ td {
     border-collapse: collapse;
 }
 
-h3 {
+h3, h5 {
     margin-bottom: 8px;
+    vertical-align: center;
 }
 
 
