@@ -20,4 +20,12 @@ public class TodoService {
     public List<Todo> getAll() {
         return (List<Todo>) todoRepository.findAll();
     }
+
+    public List<Todo> getByActive(Boolean isActive) {
+        return (List<Todo>) todoRepository.findAllByDone(!isActive);
+    }
+
+    public void save(Todo todo) {
+        todoRepository.save(todo);
+    }
 }

@@ -21,11 +21,11 @@ public class TodoappretakeApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        todoRepository.save(new Todo("First", false, false));
-        todoRepository.save(new Todo("Sec", true, false));
-        todoRepository.save(new Todo("Third", false, true));
-        todoRepository.save(new Todo("Fourth", true, true));
-        todoRepository.save(new Todo("Fifth", false, false));
+//        todoRepository.save(new Todo("First", false, false));
+//        todoRepository.save(new Todo("Sec", true, false));
+//        todoRepository.save(new Todo("Third", false, true));
+//        todoRepository.save(new Todo("Fourth", true, true));
+//        todoRepository.save(new Todo("Fifth", false, false));
     }
 }
 
