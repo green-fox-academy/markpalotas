@@ -6,6 +6,7 @@ import com.todoapprevisited.todoappretake.Repositories.TodoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 
@@ -27,7 +28,9 @@ public class TodoService {
         return (List<Todo>) todoRepository.findAllByDone(!isActive);
     }
 
-    public void save(Todo todo) {
+    public void save(Todo todo) throws TodoNotFoundException {
+        todo.setCreateDate(findById(todo.getId()).getCreateDate());
+        todo.setModifyDate(new Date());
         todoRepository.save(todo);
     }
 

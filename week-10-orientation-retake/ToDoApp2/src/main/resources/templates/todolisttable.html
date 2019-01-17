@@ -22,6 +22,8 @@
         <th><h3>Action</h3></th>
         <th><h3>Done</h3></th>
         <th><h3>Urgent</h3></th>
+        <th><h3>Created</h3></th>
+        <th><h3>Modified</h3></th>
         <th><h3>Delete?</h3></th>
         <th><h3>Update?</h3></th>
       </tr>
@@ -32,6 +34,8 @@
         <td><a th:href="@{/todo/{id}/view(id=${todo.id})}" class="col2" th:text="${todo.title}"></a></td>
         <td class="col3" th:text="${todo.done}"></td>
         <td class="col4" th:text="${todo.urgent}"></td>
+        <td th:text="${#dates.format(todo.createDate, 'dd-MM-yyyy HH:mm')}"></td>
+        <td th:text="${#dates.format(todo.modifyDate, 'dd-MM-yyyy HH:mm')}"></td>
         <td><a th:href="@{/todo/{id}/delete(id=${todo.id})}">Delete this todo</a></td>
         <td><a th:href="@{/todo/{id}/edit  (id=${todo.id})}">Modify this todo</a></td>
       </tr>

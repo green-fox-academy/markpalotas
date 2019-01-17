@@ -12,6 +12,10 @@
     <a href="/todo/list">Back to the list</a>
 </div>
 <form th:action="@{/todo/add}" th:method="POST" th:object="${todo}">
+    <!--<div hidden>-->
+        <!--<label>CreateDate</label>-->
+        <!--<input type="datetime-local" th:field="*{createDate}" th:value="">-->
+    <!--</div>-->
     <div>
         <label th:for="title">Name</label>
         <input type="text" th:field="*{title}" autofocus/>
