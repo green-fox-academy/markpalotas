@@ -1,16 +1,13 @@
 package com.todoapprevisited.todoappretake.Controllers;
 
+import com.todoapprevisited.todoappretake.Exceptions.AssigneeNotFoundException;
 import com.todoapprevisited.todoappretake.Model.Assignee;
-import com.todoapprevisited.todoappretake.Model.Todo;
 import com.todoapprevisited.todoappretake.Services.AssigneeService;
 import com.todoapprevisited.todoappretake.Services.TodoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
 
 @Controller
 @RequestMapping("/assignee")
@@ -42,4 +39,29 @@ public class AssigneeController {
         assigneeService.save(assignee);
         return "redirect:/assignee";
     }
+
+    @GetMapping("/{id}/delete")
+    public String deleteAssignee(@PathVariable("id") Long id) throws AssigneeNotFoundException {
+        assigneeService.delete(assigneeService.findById(id));
+        return "redirect:/assignee/list";
+    }
+
+    @GetMapping("/{id}/edit")
+    public String updateAssignee(Model model, @PathVariable("id") Long id) throws AssigneeNotFoundException {
+        model.addAttribute("assignee", assigneeService.findById(id));
+        return "editassigneeform";
+    }
+
+    @PostMapping("/{id}/edit")
+    public String updateAssignee(@ModelAttribute("assignee") Assignee assignee) {
+        assigneeService.save(assignee);
+        return "redirect:/assignee/list";
+    }
+
+    @ExceptionHandler(AssigneeNotFoundException.class)
+    @ResponseBody
+    public String assigneeNotFound() {
+        return "Assignee not found";
+    }
 }
+
