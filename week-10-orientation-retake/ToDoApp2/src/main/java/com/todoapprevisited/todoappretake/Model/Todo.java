@@ -1,5 +1,7 @@
 package com.todoapprevisited.todoappretake.Model;
 
+import org.hibernate.engine.internal.Cascade;
+
 import javax.persistence.*;
 import java.util.Date;
 
@@ -16,6 +18,8 @@ public class Todo {
     private Date createDate;
     @Temporal(TemporalType.TIMESTAMP)
     private Date modifyDate;
+    @ManyToOne(cascade = CascadeType.PERSIST)
+    private Assignee assignee;
 
     public Todo() {
         this.createDate = new Date();
@@ -25,10 +29,19 @@ public class Todo {
         this.title = title;
     }
 
-    public Todo(String title, Boolean urgent, Boolean done) {
+    public Todo(String title, Boolean urgent, Boolean done, Assignee assignee) {
         this.title = title;
         this.urgent = urgent;
         this.done = done;
+        this.assignee = assignee;
+    }
+
+    public Assignee getAssignee() {
+        return assignee;
+    }
+
+    public void setAssignee(Assignee assignee) {
+        this.assignee = assignee;
     }
 
     public Date getCreateDate() {

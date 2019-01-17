@@ -1,6 +1,7 @@
 package com.todoapprevisited.todoappretake.Controllers;
 
 import com.todoapprevisited.todoappretake.Exceptions.TodoNotFoundException;
+import com.todoapprevisited.todoappretake.Model.Assignee;
 import com.todoapprevisited.todoappretake.Model.Todo;
 import com.todoapprevisited.todoappretake.Services.AssigneeService;
 import com.todoapprevisited.todoappretake.Services.TodoService;
@@ -8,6 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @Controller
 @RequestMapping("/todo")
@@ -43,6 +46,7 @@ public class TodoController {
     @GetMapping(value = "/add")
     public String addTodo(Model model, @ModelAttribute("todo") Todo todo) {
         model.addAttribute("todo", todo);
+        model.addAttribute("assignees", assigneeService.getAll());
         return "addtodoform";
     }
 

@@ -25,6 +25,12 @@
         <input type="checkbox" id="done" th:field="*{done}"/>
     </div>
     <div>
+        <label th:for="assignee">Who is it assigned to?</label>
+        <select th:field="*{assignee.name}">
+            <option th:each="assignee : ${assignees}" th:value="${assignee.name}" th:text="${assignee.name}"></option>
+        </select>
+    </div>
+    <div>
         <input type="submit" value="Create ToDo"/>
     </div>
 </form>
