@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css" th:href="@{/css/style.css}"/>
+    <title>All Assignees</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<div>
+    <h1>All Assignees currently in the database</h1>
+</div>
+<div>
+    <a href="/assignee/add">Add new Assignee</a>
+</div>
+<div>
+    <a href="/todo/add">Add new Todo</a>
+</div>
+<div>
+    <a href="/assignee/list">Full assignee list</a>
+</div>
+<div>
+    <a href="/todo/list">Full todo list</a>
+</div>
+<table>
+    <thead>
+    <tr>
+        <th><h3>ID</h3></th>
+        <th><h3>Name</h3></th>
+        <th><h3>Email</h3></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="assignee : ${assignees}">
+        <td class="col1" th:text="${assignee.id}"></td>
+        <td><a th:href="@{/assignee/{id}/view(id=${assignee.id})}" class="col2" th:text="${assignee.name}"></a></td>
+        <td class="col3" th:text="${assignee.email}"></td>
+        <td><a th:href="@{/assignee/{id}/delete(id=${assignee.id})}">Delete this assignee</a></td>
+        <td><a th:href="@{/assignee/{id}/edit(id=${assignee.id})}">Modify this assignee</a></td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

@@ -2,6 +2,7 @@ package com.todoapprevisited.todoappretake.Controllers;
 
 import com.todoapprevisited.todoappretake.Exceptions.TodoNotFoundException;
 import com.todoapprevisited.todoappretake.Model.Todo;
+import com.todoapprevisited.todoappretake.Services.AssigneeService;
 import com.todoapprevisited.todoappretake.Services.TodoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -13,10 +14,12 @@ import org.springframework.web.bind.annotation.*;
 public class TodoController {
 
     TodoService todoService;
+    AssigneeService assigneeService;
 
     @Autowired
-    public TodoController(TodoService todoService) {
+    public TodoController(TodoService todoService, AssigneeService assigneeService) {
         this.todoService = todoService;
+        this.assigneeService = assigneeService;
     }
 
 //    @RequestMapping(value = {"", "/list"})
