@@ -44,7 +44,7 @@ public class TodoController {
     }
 
     @PostMapping("/add")
-    public String addTodo(@ModelAttribute("todo") Todo todo) throws TodoNotFoundException {
+    public String addTodo(@ModelAttribute("todo") Todo todo) {
         todoService.save(todo);
         return "redirect:/todo";
     }
@@ -63,7 +63,7 @@ public class TodoController {
 
     @PostMapping("/{id}/edit")
     public String updateTodo(@ModelAttribute("todoMod") Todo todo) throws TodoNotFoundException {
-        todoService.save(todo);
+        todoService.update(todo);
         return "redirect:/todo/list";
     }
 

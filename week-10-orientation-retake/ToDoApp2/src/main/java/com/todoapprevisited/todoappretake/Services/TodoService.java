@@ -28,9 +28,13 @@ public class TodoService {
         return (List<Todo>) todoRepository.findAllByDone(!isActive);
     }
 
-    public void save(Todo todo) throws TodoNotFoundException {
+    public void update(Todo todo) throws TodoNotFoundException {
         todo.setCreateDate(findById(todo.getId()).getCreateDate());
         todo.setModifyDate(new Date());
+        todoRepository.save(todo);
+    }
+
+    public void save(Todo todo) {
         todoRepository.save(todo);
     }
 
