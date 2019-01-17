@@ -67,6 +67,12 @@ public class TodoController {
         return "redirect:/todo/list";
     }
 
+    @GetMapping("/{id}/view")
+    public String viewTodoDetails(Model model, @PathVariable("id") Long id) throws TodoNotFoundException {
+        model.addAttribute("todo", todoService.findById(id));
+        return "tododetails";
+    }
+
 //    @PostMapping(value = "/{id}/edit")
 //    public String editToDo(@ModelAttribute("todoMod") ToDo toDo) {
 //        toDoService.save(toDo);
