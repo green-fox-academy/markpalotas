@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css" th:href="@{/css/style.css}"/>
+    <title>Todo Details</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<div>
+    <h1>Todo details</h1>
+</div>
+<div>
+    <a href="/todo/add">Add new Todo</a>
+</div>
+<div>
+    <a href="/todo/list">Back to full list</a>
+</div>
+<table>
+    <thead>
+    <tr>
+        <th><h3>ID</h3></th>
+        <th><h3>Action</h3></th>
+        <th><h3>Done</h3></th>
+        <th><h3>Urgent</h3></th>
+        <th><h3>Delete?</h3></th>
+        <th><h3>Update?</h3></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td class="col1" th:text="${todo.id}"></td>
+        <td class="col2" th:text="${todo.title}"></td>
+        <td class="col3" th:text="${todo.done}"></td>
+        <td class="col4" th:text="${todo.urgent}"></td>
+        <td><a th:href="@{/todo/{id}/delete(id=${todo.id})}">Delete this todo</a></td>
+        <td><a th:href="@{/todo/{id}/edit  (id=${todo.id})}">Modify this todo</a></td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
