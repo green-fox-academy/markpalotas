@@ -1,0 +1,36 @@
+td {
+    border: solid black;
+    border-width: 1px;
+    border-collapse: collapse;
+}
+
+h3, h5 {
+    margin-bottom: 8px;
+    vertical-align: center;
+}
+
+
+.col1 {
+    width: 35px;
+    text-align: center;
+    vertical-align: center;
+}
+
+.col2 {
+    width: 250px;
+    vertical-align: center;
+    text-align: left;
+    padding: 5px;
+}
+
+.col3 {
+    width: 80px;
+    vertical-align: center;
+    text-align: center;
+}
+
+.col4 {
+    width: 80px;
+    vertical-align: center;
+    text-align: center;
+}
