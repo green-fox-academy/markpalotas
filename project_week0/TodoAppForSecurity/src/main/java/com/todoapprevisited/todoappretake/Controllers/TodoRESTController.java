@@ -1,5 +1,7 @@
 package com.todoapprevisited.todoappretake.Controllers;
 
+import com.todoapprevisited.todoappretake.Exceptions.TokenIncorrectException;
+import com.todoapprevisited.todoappretake.Exceptions.TokenMissingException;
 import com.todoapprevisited.todoappretake.Model.Todo;
 import com.todoapprevisited.todoappretake.Services.AssigneeService;
 import com.todoapprevisited.todoappretake.Services.TodoService;
@@ -24,13 +26,23 @@ public class TodoRESTController {
     }
 
     @PostMapping(value = "/add")
-    public String addTodo(@RequestBody Todo todo) {
+    public String addTodo(@RequestBody Todo todo) throws TokenIncorrectException, TokenMissingException {
         todoService.save(todo);
         return "redirect:/todo";
     }
 
     @GetMapping(value = {"", "/list"})
-    public ResponseEntity<List<Todo>> listTodo() {
+    public ResponseEntity<List<Todo>> listTodo() throws TokenIncorrectException, TokenMissingException {
         return new ResponseEntity<>(todoService.getAll(), HttpStatus.OK);
+    }
+
+//    @ResponseStatus(value=HttpStatus.UNAUTHORIZED, reason="Unauthorized")
+    @ExceptionHandler(TokenIncorrectException.class)
+    public void conflict1() {
+    }
+
+//    @ResponseStatus(value=HttpStatus.UNAUTHORIZED, reason="Unauthorized")
+    @ExceptionHandler(TokenMissingException.class)
+    public void conflict2() {
     }
 }
