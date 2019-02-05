@@ -26,23 +26,14 @@ public class TodoRESTController {
     }
 
     @PostMapping(value = "/add")
-    public String addTodo(@RequestBody Todo todo) throws TokenIncorrectException, TokenMissingException {
+    public String addTodo(@RequestBody Todo todo) {
         todoService.save(todo);
         return "redirect:/todo";
     }
 
     @GetMapping(value = {"", "/list"})
-    public ResponseEntity<List<Todo>> listTodo() throws TokenIncorrectException, TokenMissingException {
+    public ResponseEntity<List<Todo>> listTodo() {
         return new ResponseEntity<>(todoService.getAll(), HttpStatus.OK);
     }
 
-//    @ResponseStatus(value=HttpStatus.UNAUTHORIZED, reason="Unauthorized")
-    @ExceptionHandler(TokenIncorrectException.class)
-    public void conflict1() {
-    }
-
-//    @ResponseStatus(value=HttpStatus.UNAUTHORIZED, reason="Unauthorized")
-    @ExceptionHandler(TokenMissingException.class)
-    public void conflict2() {
-    }
 }

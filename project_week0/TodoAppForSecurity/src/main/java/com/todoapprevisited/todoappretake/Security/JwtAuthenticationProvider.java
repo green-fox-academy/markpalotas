@@ -39,7 +39,7 @@ public class JwtAuthenticationProvider extends AbstractUserDetailsAuthentication
         String token = jwtAuthenticationToken.getToken();
         JwtUser jwtUser = validator.validate(token);
         if (jwtUser == null) {
-            throw new TokenIncorrectException();
+            throw new TokenIncorrectException("JWT Token Incorrect");
         }
         List<GrantedAuthority> grantedAuthorities = AuthorityUtils
                 .commaSeparatedStringToAuthorityList(jwtUser.getRole());

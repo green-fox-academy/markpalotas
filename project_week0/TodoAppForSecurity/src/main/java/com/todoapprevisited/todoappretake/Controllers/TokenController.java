@@ -21,9 +21,4 @@ public class TokenController {
         return jwtGenerator.generate(jwtUser);
     }
 
-//    @ResponseStatus(value= HttpStatus.UNAUTHORIZED, reason="Unauthorized")
-//    @ExceptionHandler(RuntimeException.class)
-//    public void conflict() {
-//        // Nothing to do
-//    }
 }
